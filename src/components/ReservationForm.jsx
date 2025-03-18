@@ -51,8 +51,8 @@ const ReservationForm = () => {
 	};
 
 	return (
-		<div className="py-4 px-10">
-			<div className="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-end">
+		<div className="py-4">
+			<div className="bg-white py-6 px-8 rounded-lg shadow-md flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-end">
 				<div className="w-full md:flex-1 flex flex-wrap items-center">
 					<label className="block text-sm font-medium text-gray-700">
 						País
@@ -117,7 +117,7 @@ const ReservationForm = () => {
 				</div>
 				<button
 					type="button"
-					className="w-full md:w-auto bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600"
+					className="w-full md:w-auto hover:bg-sky-950 bg-sky-900 text-white p-2 rounded-md"
 					onClick={handleSearch}
 				>
 					Buscar
@@ -125,7 +125,7 @@ const ReservationForm = () => {
 			</div>
 
 			{showAlert && (
-				<div className="fixed top-4 right-4 bg-red-500 text-white p-4 rounded-lg shadow-lg">
+				<div className="fixed bottom-4 right-4 bg-red-500 text-white p-4 rounded-lg shadow-lg">
 					Por favor, completa todos los campos.
 				</div>
 			)}

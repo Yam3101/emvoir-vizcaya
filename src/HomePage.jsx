@@ -5,8 +5,9 @@ const HomePage = () => {
 	return (
 		<main className="w-screen h-screen overflow-x-hidden flex flex-col">
 			<NavbarMain />
-			<h1 className="text-red-600">Welcome to the HomePage</h1>
-			<ReservationForm />
+			<section className="flex flex-col items-center justify-end bg-stone-950 h-1/2">
+				<ReservationForm />
+			</section>
 		</main>
 	);
 };
