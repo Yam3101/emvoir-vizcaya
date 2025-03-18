@@ -1,0 +1,224 @@
+[
+	{
+		"destination": "Ciudad de México",
+		"country": "México",
+		"cost": "$800",
+		"flight": "MX101",
+		"tours": ["Zócalo", "Museo Frida Kahlo", "Teotihuacán"]
+	},
+	{
+		"destination": "Cancún",
+		"country": "México",
+		"cost": "$1000",
+		"flight": "MX102",
+		"tours": ["Playa Delfines", "Chichén Itzá", "Xcaret"]
+	},
+	{
+		"destination": "Guadalajara",
+		"country": "México",
+		"cost": "$700",
+		"flight": "MX103",
+		"tours": ["Catedral de Guadalajara", "Tlaquepaque", "Lago de Chapala"]
+	},
+	{
+		"destination": "Nueva York",
+		"country": "Estados Unidos",
+		"cost": "$1500",
+		"flight": "AA456",
+		"tours": ["Estatua de la Libertad", "Central Park", "Times Square"]
+	},
+	{
+		"destination": "Los Ángeles",
+		"country": "Estados Unidos",
+		"cost": "$1400",
+		"flight": "AA457",
+		"tours": ["Hollywood Sign", "Santa Mónica", "Universal Studios"]
+	},
+	{
+		"destination": "Miami",
+		"country": "Estados Unidos",
+		"cost": "$1300",
+		"flight": "AA458",
+		"tours": ["South Beach", "Everglades", "Little Havana"]
+	},
+	{
+		"destination": "Toronto",
+		"country": "Canadá",
+		"cost": "$1100",
+		"flight": "AC201",
+		"tours": ["CN Tower", "Niagara Falls", "Distillery District"]
+	},
+	{
+		"destination": "Vancouver",
+		"country": "Canadá",
+		"cost": "$1200",
+		"flight": "AC202",
+		"tours": ["Stanley Park", "Granville Island", "Capilano Suspension Bridge"]
+	},
+	{
+		"destination": "Montreal",
+		"country": "Canadá",
+		"cost": "$1000",
+		"flight": "AC203",
+		"tours": ["Basílica de Notre-Dame", "Montreal Old Port", "Mount Royal"]
+	},
+	{
+		"destination": "París",
+		"country": "Francia",
+		"cost": "$1200",
+		"flight": "AF123",
+		"tours": ["Tour Eiffel", "Louvre", "Catedral de Notre-Dame"]
+	},
+	{
+		"destination": "Niza",
+		"country": "Francia",
+		"cost": "$1100",
+		"flight": "AF124",
+		"tours": ["Promenade des Anglais", "Vieille Ville", "Castle Hill"]
+	},
+	{
+		"destination": "Burdeos",
+		"country": "Francia",
+		"cost": "$1000",
+		"flight": "AF125",
+		"tours": ["Place de la Bourse", "Cité du Vin", "Basilique Saint-Michel"]
+	},
+	{
+		"destination": "Roma",
+		"country": "Italia",
+		"cost": "$1300",
+		"flight": "AZ321",
+		"tours": ["Coliseo", "Fontana di Trevi", "Vaticano"]
+	},
+	{
+		"destination": "Venecia",
+		"country": "Italia",
+		"cost": "$1400",
+		"flight": "AZ322",
+		"tours": ["Canal Grande", "Piazza San Marco", "Puente de Rialto"]
+	},
+	{
+		"destination": "Florencia",
+		"country": "Italia",
+		"cost": "$1200",
+		"flight": "AZ323",
+		"tours": ["Duomo", "Galería Uffizi", "Ponte Vecchio"]
+	},
+	{
+		"destination": "Tokio",
+		"country": "Japón",
+		"cost": "$2000",
+		"flight": "JL789",
+		"tours": ["Shibuya Crossing", "Templo Senso-ji", "Monte Fuji"]
+	},
+	{
+		"destination": "Kioto",
+		"country": "Japón",
+		"cost": "$1900",
+		"flight": "JL790",
+		"tours": ["Fushimi Inari Taisha", "Kinkaku-ji", "Arashiyama"]
+	},
+	{
+		"destination": "Osaka",
+		"country": "Japón",
+		"cost": "$1800",
+		"flight": "JL791",
+		"tours": ["Castillo de Osaka", "Dotonbori", "Acuario de Osaka"]
+	},
+	{
+		"destination": "Londres",
+		"country": "Reino Unido",
+		"cost": "$1500",
+		"flight": "BA101",
+		"tours": ["Big Ben", "London Eye", "Torre de Londres"]
+	},
+	{
+		"destination": "Edimburgo",
+		"country": "Reino Unido",
+		"cost": "$1400",
+		"flight": "BA102",
+		"tours": ["Castillo de Edimburgo", "Royal Mile", "Arthur's Seat"]
+	},
+	{
+		"destination": "Manchester",
+		"country": "Reino Unido",
+		"cost": "$1300",
+		"flight": "BA103",
+		"tours": [
+			"Old Trafford",
+			"Manchester Cathedral",
+			"Science and Industry Museum"
+		]
+	},
+	{
+		"destination": "Sídney",
+		"country": "Australia",
+		"cost": "$1800",
+		"flight": "QF201",
+		"tours": ["Ópera de Sídney", "Puente de la Bahía de Sídney", "Bondi Beach"]
+	},
+	{
+		"destination": "Melbourne",
+		"country": "Australia",
+		"cost": "$1700",
+		"flight": "QF202",
+		"tours": ["Federación Square", "Great Ocean Road", "Royal Botanic Gardens"]
+	},
+	{
+		"destination": "Brisbane",
+		"country": "Australia",
+		"cost": "$1600",
+		"flight": "QF203",
+		"tours": [
+			"South Bank Parklands",
+			"Lone Pine Koala Sanctuary",
+			"Story Bridge"
+		]
+	},
+	{
+		"destination": "Buenos Aires",
+		"country": "Argentina",
+		"cost": "$900",
+		"flight": "AR101",
+		"tours": ["Casa Rosada", "La Boca", "Recoleta"]
+	},
+	{
+		"destination": "Mendoza",
+		"country": "Argentina",
+		"cost": "$850",
+		"flight": "AR102",
+		"tours": ["Bodegas de Vino", "Aconcagua", "Parque General San Martín"]
+	},
+	{
+		"destination": "Bariloche",
+		"country": "Argentina",
+		"cost": "$950",
+		"flight": "AR103",
+		"tours": ["Cerro Catedral", "Lago Nahuel Huapi", "Circuito Chico"]
+	},
+	{
+		"destination": "Río de Janeiro",
+		"country": "Brasil",
+		"cost": "$1000",
+		"flight": "BR101",
+		"tours": ["Cristo Redentor", "Pan de Azúcar", "Copacabana"]
+	},
+	{
+		"destination": "São Paulo",
+		"country": "Brasil",
+		"cost": "$950",
+		"flight": "BR102",
+		"tours": [
+			"Avenida Paulista",
+			"Parque Ibirapuera",
+			"Museo de Arte de São Paulo"
+		]
+	},
+	{
+		"destination": "Foz do Iguaçu",
+		"country": "Brasil",
+		"cost": "$900",
+		"flight": "BR103",
+		"tours": ["Cataratas del Iguazú", "Itaipú Binacional", "Parque das Aves"]
+	}
+]
