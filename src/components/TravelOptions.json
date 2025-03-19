@@ -5,7 +5,22 @@
 		"costMXN": "$16,000",
 		"costUSD": "$800",
 		"flight": "MX101",
-		"tours": ["Zócalo", "Museo Frida Kahlo", "Teotihuacán"]
+		"tours": ["Zócalo", "Museo Frida Kahlo", "Teotihuacán"],
+		"hoteles": [
+			"Hotel Gran Ciudad de México",
+			"Hotel Histórico Central",
+			"Boutique Hotel Zócalo"
+		],
+		"actividades": [
+			"Tour gastronómico",
+			"Visita a Xochimilco",
+			"Recorrido en bicicleta"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico privado",
+			"Desayuno incluido"
+		]
 	},
 	{
 		"destination": "Cancún",
@@ -13,7 +28,22 @@
 		"costMXN": "$20,000",
 		"costUSD": "$1,000",
 		"flight": "MX102",
-		"tours": ["Playa Delfines", "Chichén Itzá", "Xcaret"]
+		"tours": ["Playa Delfines", "Chichén Itzá", "Xcaret"],
+		"hoteles": [
+			"Resort Cancún Paradise",
+			"Hotel Playa Delfines",
+			"Boutique Hotel Xcaret"
+		],
+		"actividades": [
+			"Snorkeling en arrecifes",
+			"Tour a Isla Mujeres",
+			"Cena en crucero"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Acceso a parques temáticos",
+			"Desayuno buffet"
+		]
 	},
 	{
 		"destination": "Guadalajara",
@@ -21,7 +51,22 @@
 		"costMXN": "$14,000",
 		"costUSD": "$700",
 		"flight": "MX103",
-		"tours": ["Catedral de Guadalajara", "Tlaquepaque", "Lago de Chapala"]
+		"tours": ["Catedral de Guadalajara", "Tlaquepaque", "Lago de Chapala"],
+		"hoteles": [
+			"Hotel Guadalajara Central",
+			"Boutique Hotel Tlaquepaque",
+			"Resort Lago de Chapala"
+		],
+		"actividades": [
+			"Tour de tequila",
+			"Visita a mercados locales",
+			"Paseo en lancha"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno tradicional"
+		]
 	},
 	{
 		"destination": "Oaxaca",
@@ -29,7 +74,18 @@
 		"costMXN": "$15,000",
 		"costUSD": "$750",
 		"flight": "MX104",
-		"tours": ["Monte Albán", "Hierve el Agua", "Centro Histórico"]
+		"tours": ["Monte Albán", "Hierve el Agua", "Centro Histórico"],
+		"hoteles": [
+			"Hotel Oaxaca Colonial",
+			"Boutique Hotel Hierve el Agua",
+			"Resort Monte Albán"
+		],
+		"actividades": [
+			"Tour de mezcal",
+			"Clases de cocina tradicional",
+			"Visita a talleres artesanales"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno oaxaqueño"]
 	},
 	{
 		"destination": "Puebla",
@@ -37,7 +93,18 @@
 		"costMXN": "$13,000",
 		"costUSD": "$650",
 		"flight": "MX105",
-		"tours": ["Catedral de Puebla", "Zócalo", "Cholula"]
+		"tours": ["Catedral de Puebla", "Zócalo", "Cholula"],
+		"hoteles": [
+			"Hotel Puebla Central",
+			"Boutique Hotel Cholula",
+			"Resort Zócalo"
+		],
+		"actividades": [
+			"Tour de mole poblano",
+			"Visita a talavera",
+			"Recorrido histórico"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno poblano"]
 	},
 	{
 		"destination": "Puerto Vallarta",
@@ -45,7 +112,22 @@
 		"costMXN": "$18,000",
 		"costUSD": "$900",
 		"flight": "MX106",
-		"tours": ["Malecón", "Islas Marietas", "Playa Los Muertos"]
+		"tours": ["Malecón", "Islas Marietas", "Playa Los Muertos"],
+		"hoteles": [
+			"Resort Puerto Vallarta",
+			"Hotel Playa Los Muertos",
+			"Boutique Hotel Malecón"
+		],
+		"actividades": [
+			"Paseo en catamarán",
+			"Avistamiento de ballenas",
+			"Tour de comida callejera"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Acceso a playas privadas",
+			"Desayuno incluido"
+		]
 	},
 	{
 		"destination": "Nueva York",
@@ -53,7 +135,18 @@
 		"costMXN": "$30,000",
 		"costUSD": "$1,500",
 		"flight": "AA456",
-		"tours": ["Estatua de la Libertad", "Central Park", "Times Square"]
+		"tours": ["Estatua de la Libertad", "Central Park", "Times Square"],
+		"hoteles": [
+			"Hotel Manhattan Central",
+			"Boutique Hotel Times Square",
+			"Resort Central Park"
+		],
+		"actividades": [
+			"Tour en helicóptero",
+			"Visita a Broadway",
+			"Recorrido en barco por el Hudson"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno americano"]
 	},
 	{
 		"destination": "Los Ángeles",
@@ -61,7 +154,22 @@
 		"costMXN": "$28,000",
 		"costUSD": "$1,400",
 		"flight": "AA457",
-		"tours": ["Hollywood Sign", "Santa Mónica", "Universal Studios"]
+		"tours": ["Hollywood Sign", "Santa Mónica", "Universal Studios"],
+		"hoteles": [
+			"Hotel Hollywood Central",
+			"Boutique Hotel Santa Mónica",
+			"Resort Universal Studios"
+		],
+		"actividades": [
+			"Tour de estudios de cine",
+			"Paseo en bicicleta por Venice Beach",
+			"Visita a museos de arte"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Acceso a parques temáticos",
+			"Desayuno californiano"
+		]
 	},
 	{
 		"destination": "Miami",
@@ -69,7 +177,18 @@
 		"costMXN": "$26,000",
 		"costUSD": "$1,300",
 		"flight": "AA458",
-		"tours": ["South Beach", "Everglades", "Little Havana"]
+		"tours": ["South Beach", "Everglades", "Little Havana"],
+		"hoteles": [
+			"Hotel Miami Beach",
+			"Boutique Hotel Little Havana",
+			"Resort Everglades"
+		],
+		"actividades": [
+			"Tour en airboat por los Everglades",
+			"Visita a Wynwood Walls",
+			"Cena en crucero"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno cubano"]
 	},
 	{
 		"destination": "Las Vegas",
@@ -77,7 +196,22 @@
 		"costMXN": "$25,000",
 		"costUSD": "$1,250",
 		"flight": "AA459",
-		"tours": ["Strip de Las Vegas", "Gran Cañón", "Fremont Street"]
+		"tours": ["Strip de Las Vegas", "Gran Cañón", "Fremont Street"],
+		"hoteles": [
+			"Hotel Las Vegas Strip",
+			"Boutique Hotel Fremont",
+			"Resort Gran Cañón"
+		],
+		"actividades": [
+			"Tour en helicóptero al Gran Cañón",
+			"Espectáculo de luces",
+			"Visita a casinos"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Acceso a espectáculos",
+			"Desayuno buffet"
+		]
 	},
 	{
 		"destination": "Chicago",
@@ -85,7 +219,18 @@
 		"costMXN": "$24,000",
 		"costUSD": "$1,200",
 		"flight": "AA460",
-		"tours": ["Millennium Park", "Willis Tower", "Navy Pier"]
+		"tours": ["Millennium Park", "Willis Tower", "Navy Pier"],
+		"hoteles": [
+			"Hotel Chicago Central",
+			"Boutique Hotel Navy Pier",
+			"Resort Willis Tower"
+		],
+		"actividades": [
+			"Tour arquitectónico",
+			"Visita al Field Museum",
+			"Paseo en barco por el río Chicago"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno americano"]
 	},
 	{
 		"destination": "San Francisco",
@@ -93,7 +238,22 @@
 		"costMXN": "$27,000",
 		"costUSD": "$1,350",
 		"flight": "AA461",
-		"tours": ["Golden Gate", "Alcatraz", "Puente de Oakland"]
+		"tours": ["Golden Gate", "Alcatraz", "Puente de Oakland"],
+		"hoteles": [
+			"Hotel San Francisco Bay",
+			"Boutique Hotel Golden Gate",
+			"Resort Alcatraz"
+		],
+		"actividades": [
+			"Tour en ferry a Alcatraz",
+			"Paseo en bicicleta por el Golden Gate",
+			"Visita a Chinatown"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno californiano"
+		]
 	},
 	{
 		"destination": "Toronto",
@@ -101,7 +261,22 @@
 		"costMXN": "$22,000",
 		"costUSD": "$1,100",
 		"flight": "AC201",
-		"tours": ["CN Tower", "Niagara Falls", "Distillery District"]
+		"tours": ["CN Tower", "Niagara Falls", "Distillery District"],
+		"hoteles": [
+			"Hotel Toronto Central",
+			"Boutique Hotel Distillery",
+			"Resort Niagara Falls"
+		],
+		"actividades": [
+			"Tour en barco a las cataratas",
+			"Visita al acuario Ripley's",
+			"Recorrido por el Distillery District"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno canadiense"
+		]
 	},
 	{
 		"destination": "Vancouver",
@@ -109,7 +284,22 @@
 		"costMXN": "$24,000",
 		"costUSD": "$1,200",
 		"flight": "AC202",
-		"tours": ["Stanley Park", "Granville Island", "Capilano Suspension Bridge"]
+		"tours": ["Stanley Park", "Granville Island", "Capilano Suspension Bridge"],
+		"hoteles": [
+			"Hotel Vancouver Central",
+			"Boutique Hotel Granville",
+			"Resort Stanley Park"
+		],
+		"actividades": [
+			"Tour en bicicleta por Stanley Park",
+			"Visita al mercado de Granville Island",
+			"Paseo por el puente colgante"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno canadiense"
+		]
 	},
 	{
 		"destination": "Montreal",
@@ -117,7 +307,18 @@
 		"costMXN": "$20,000",
 		"costUSD": "$1,000",
 		"flight": "AC203",
-		"tours": ["Basílica de Notre-Dame", "Montreal Old Port", "Mount Royal"]
+		"tours": ["Basílica de Notre-Dame", "Montreal Old Port", "Mount Royal"],
+		"hoteles": [
+			"Hotel Montreal Central",
+			"Boutique Hotel Old Port",
+			"Resort Mount Royal"
+		],
+		"actividades": [
+			"Tour histórico por Old Montreal",
+			"Visita al Jardín Botánico",
+			"Paseo en bicicleta por Mount Royal"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno quebecois"]
 	},
 	{
 		"destination": "Calgary",
@@ -125,7 +326,22 @@
 		"costMXN": "$21,000",
 		"costUSD": "$1,050",
 		"flight": "AC204",
-		"tours": ["Calgary Tower", "Banff National Park", "Heritage Park"]
+		"tours": ["Calgary Tower", "Banff National Park", "Heritage Park"],
+		"hoteles": [
+			"Hotel Calgary Central",
+			"Boutique Hotel Banff",
+			"Resort Heritage Park"
+		],
+		"actividades": [
+			"Tour por Banff National Park",
+			"Visita al Calgary Zoo",
+			"Paseo en teleférico"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno canadiense"
+		]
 	},
 	{
 		"destination": "Quebec",
@@ -133,7 +349,18 @@
 		"costMXN": "$23,000",
 		"costUSD": "$1,150",
 		"flight": "AC205",
-		"tours": ["Old Quebec", "Montmorency Falls", "Plains of Abraham"]
+		"tours": ["Old Quebec", "Montmorency Falls", "Plains of Abraham"],
+		"hoteles": [
+			"Hotel Quebec Central",
+			"Boutique Hotel Old Quebec",
+			"Resort Montmorency"
+		],
+		"actividades": [
+			"Tour histórico por Old Quebec",
+			"Visita a las cataratas Montmorency",
+			"Paseo en bicicleta por las llanuras"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno quebecois"]
 	},
 	{
 		"destination": "Ottawa",
@@ -141,7 +368,22 @@
 		"costMXN": "$19,000",
 		"costUSD": "$950",
 		"flight": "AC206",
-		"tours": ["Parliament Hill", "Rideau Canal", "National Gallery"]
+		"tours": ["Parliament Hill", "Rideau Canal", "National Gallery"],
+		"hoteles": [
+			"Hotel Ottawa Central",
+			"Boutique Hotel Rideau",
+			"Resort Parliament Hill"
+		],
+		"actividades": [
+			"Tour por Parliament Hill",
+			"Paseo en barco por el canal Rideau",
+			"Visita a la Galería Nacional"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno canadiense"
+		]
 	},
 	{
 		"destination": "París",
@@ -149,7 +391,18 @@
 		"costMXN": "$24,000",
 		"costUSD": "$1,200",
 		"flight": "AF123",
-		"tours": ["Tour Eiffel", "Louvre", "Catedral de Notre-Dame"]
+		"tours": ["Tour Eiffel", "Louvre", "Catedral de Notre-Dame"],
+		"hoteles": [
+			"Hotel París Central",
+			"Boutique Hotel Eiffel",
+			"Resort Louvre"
+		],
+		"actividades": [
+			"Tour en barco por el Sena",
+			"Visita al Museo del Louvre",
+			"Paseo en bicicleta por Montmartre"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno francés"]
 	},
 	{
 		"destination": "Niza",
@@ -157,7 +410,18 @@
 		"costMXN": "$22,000",
 		"costUSD": "$1,100",
 		"flight": "AF124",
-		"tours": ["Promenade des Anglais", "Vieille Ville", "Castle Hill"]
+		"tours": ["Promenade des Anglais", "Vieille Ville", "Castle Hill"],
+		"hoteles": [
+			"Hotel Niza Central",
+			"Boutique Hotel Promenade",
+			"Resort Vieille Ville"
+		],
+		"actividades": [
+			"Tour en bicicleta por la costa",
+			"Visita al mercado de flores",
+			"Paseo en barco por la bahía"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno provenzal"]
 	},
 	{
 		"destination": "Burdeos",
@@ -165,7 +429,18 @@
 		"costMXN": "$20,000",
 		"costUSD": "$1,000",
 		"flight": "AF125",
-		"tours": ["Place de la Bourse", "Cité du Vin", "Basilique Saint-Michel"]
+		"tours": ["Place de la Bourse", "Cité du Vin", "Basilique Saint-Michel"],
+		"hoteles": [
+			"Hotel Burdeos Central",
+			"Boutique Hotel Cité du Vin",
+			"Resort Place de la Bourse"
+		],
+		"actividades": [
+			"Tour de vinos",
+			"Visita a la Cité du Vin",
+			"Paseo en bicicleta por el casco antiguo"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno francés"]
 	},
 	{
 		"destination": "Lyon",
@@ -177,7 +452,18 @@
 			"Vieux Lyon",
 			"Basilique Notre-Dame de Fourvière",
 			"Parc de la Tête d'Or"
-		]
+		],
+		"hoteles": [
+			"Hotel Lyon Central",
+			"Boutique Hotel Vieux Lyon",
+			"Resort Fourvière"
+		],
+		"actividades": [
+			"Tour gastronómico",
+			"Visita a la basílica",
+			"Paseo en bicicleta por el parque"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno francés"]
 	},
 	{
 		"destination": "Marsella",
@@ -185,7 +471,18 @@
 		"costMXN": "$21,000",
 		"costUSD": "$1,050",
 		"flight": "AF127",
-		"tours": ["Vieux Port", "Basilique Notre-Dame de la Garde", "Calanques"]
+		"tours": ["Vieux Port", "Basilique Notre-Dame de la Garde", "Calanques"],
+		"hoteles": [
+			"Hotel Marsella Central",
+			"Boutique Hotel Vieux Port",
+			"Resort Calanques"
+		],
+		"actividades": [
+			"Tour en barco por las calanques",
+			"Visita a la basílica",
+			"Paseo en bicicleta por el puerto"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno provenzal"]
 	},
 	{
 		"destination": "Estrasburgo",
@@ -193,7 +490,18 @@
 		"costMXN": "$18,000",
 		"costUSD": "$900",
 		"flight": "AF128",
-		"tours": ["Catedral de Estrasburgo", "Petite France", "Parlamento Europeo"]
+		"tours": ["Catedral de Estrasburgo", "Petite France", "Parlamento Europeo"],
+		"hoteles": [
+			"Hotel Estrasburgo Central",
+			"Boutique Hotel Petite France",
+			"Resort Parlamento"
+		],
+		"actividades": [
+			"Tour en bicicleta por Petite France",
+			"Visita a la catedral",
+			"Paseo en barco por los canales"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno alsaciano"]
 	},
 	{
 		"destination": "Roma",
@@ -201,7 +509,18 @@
 		"costMXN": "$26,000",
 		"costUSD": "$1,300",
 		"flight": "AZ321",
-		"tours": ["Coliseo", "Fontana di Trevi", "Vaticano"]
+		"tours": ["Coliseo", "Fontana di Trevi", "Vaticano"],
+		"hoteles": [
+			"Hotel Roma Central",
+			"Boutique Hotel Coliseo",
+			"Resort Vaticano"
+		],
+		"actividades": [
+			"Tour histórico por el Coliseo",
+			"Visita a los Museos Vaticanos",
+			"Paseo en bicicleta por Trastevere"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno italiano"]
 	},
 	{
 		"destination": "Venecia",
@@ -209,7 +528,18 @@
 		"costMXN": "$28,000",
 		"costUSD": "$1,400",
 		"flight": "AZ322",
-		"tours": ["Canal Grande", "Piazza San Marco", "Puente de Rialto"]
+		"tours": ["Canal Grande", "Piazza San Marco", "Puente de Rialto"],
+		"hoteles": [
+			"Hotel Venecia Central",
+			"Boutique Hotel Piazza San Marco",
+			"Resort Canal Grande"
+		],
+		"actividades": [
+			"Tour en góndola",
+			"Visita al Palacio Ducal",
+			"Paseo en bicicleta por las islas"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno veneciano"]
 	},
 	{
 		"destination": "Florencia",
@@ -217,7 +547,18 @@
 		"costMXN": "$24,000",
 		"costUSD": "$1,200",
 		"flight": "AZ323",
-		"tours": ["Duomo", "Galería Uffizi", "Ponte Vecchio"]
+		"tours": ["Duomo", "Galería Uffizi", "Ponte Vecchio"],
+		"hoteles": [
+			"Hotel Florencia Central",
+			"Boutique Hotel Duomo",
+			"Resort Uffizi"
+		],
+		"actividades": [
+			"Tour artístico por la Galería Uffizi",
+			"Visita al Duomo",
+			"Paseo en bicicleta por el Ponte Vecchio"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno toscano"]
 	},
 	{
 		"destination": "Milán",
@@ -229,7 +570,18 @@
 			"Catedral de Milán",
 			"Teatro La Scala",
 			"Galería Vittorio Emanuele II"
-		]
+		],
+		"hoteles": [
+			"Hotel Milán Central",
+			"Boutique Hotel La Scala",
+			"Resort Catedral"
+		],
+		"actividades": [
+			"Tour de moda",
+			"Visita al Teatro La Scala",
+			"Paseo en bicicleta por la galería"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno milanés"]
 	},
 	{
 		"destination": "Nápoles",
@@ -237,7 +589,22 @@
 		"costMXN": "$23,000",
 		"costUSD": "$1,150",
 		"flight": "AZ325",
-		"tours": ["Pompeya", "Monte Vesubio", "Castel dell'Ovo"]
+		"tours": ["Pompeya", "Monte Vesubio", "Castel dell'Ovo"],
+		"hoteles": [
+			"Hotel Nápoles Central",
+			"Boutique Hotel Pompeya",
+			"Resort Vesubio"
+		],
+		"actividades": [
+			"Tour arqueológico por Pompeya",
+			"Visita al Monte Vesubio",
+			"Paseo en bicicleta por el castillo"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno napolitano"
+		]
 	},
 	{
 		"destination": "Turín",
@@ -245,7 +612,18 @@
 		"costMXN": "$22,000",
 		"costUSD": "$1,100",
 		"flight": "AZ326",
-		"tours": ["Museo Egipcio", "Palacio Real de Turín", "Mole Antonelliana"]
+		"tours": ["Museo Egipcio", "Palacio Real de Turín", "Mole Antonelliana"],
+		"hoteles": [
+			"Hotel Turín Central",
+			"Boutique Hotel Palacio Real",
+			"Resort Mole Antonelliana"
+		],
+		"actividades": [
+			"Tour histórico por el Palacio Real",
+			"Visita al Museo Egipcio",
+			"Paseo en bicicleta por la Mole"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno piamontés"]
 	},
 	{
 		"destination": "Tokio",
@@ -253,7 +631,18 @@
 		"costMXN": "$40,000",
 		"costUSD": "$2,000",
 		"flight": "JL789",
-		"tours": ["Shibuya Crossing", "Templo Senso-ji", "Monte Fuji"]
+		"tours": ["Shibuya Crossing", "Templo Senso-ji", "Monte Fuji"],
+		"hoteles": [
+			"Hotel Tokio Central",
+			"Boutique Hotel Shibuya",
+			"Resort Monte Fuji"
+		],
+		"actividades": [
+			"Tour por Shibuya",
+			"Visita al Templo Senso-ji",
+			"Excursión al Monte Fuji"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno japonés"]
 	},
 	{
 		"destination": "Kioto",
@@ -261,7 +650,22 @@
 		"costMXN": "$38,000",
 		"costUSD": "$1,900",
 		"flight": "JL790",
-		"tours": ["Fushimi Inari Taisha", "Kinkaku-ji", "Arashiyama"]
+		"tours": ["Fushimi Inari Taisha", "Kinkaku-ji", "Arashiyama"],
+		"hoteles": [
+			"Hotel Kioto Central",
+			"Boutique Hotel Fushimi",
+			"Resort Arashiyama"
+		],
+		"actividades": [
+			"Tour por los templos",
+			"Visita al Kinkaku-ji",
+			"Paseo en bicicleta por Arashiyama"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno tradicional"
+		]
 	},
 	{
 		"destination": "Osaka",
@@ -269,7 +673,18 @@
 		"costMXN": "$36,000",
 		"costUSD": "$1,800",
 		"flight": "JL791",
-		"tours": ["Castillo de Osaka", "Dotonbori", "Acuario de Osaka"]
+		"tours": ["Castillo de Osaka", "Dotonbori", "Acuario de Osaka"],
+		"hoteles": [
+			"Hotel Osaka Central",
+			"Boutique Hotel Dotonbori",
+			"Resort Acuario"
+		],
+		"actividades": [
+			"Tour por el castillo",
+			"Visita al acuario",
+			"Paseo en bicicleta por Dotonbori"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno japonés"]
 	},
 	{
 		"destination": "Hiroshima",
@@ -277,7 +692,22 @@
 		"costMXN": "$34,000",
 		"costUSD": "$1,700",
 		"flight": "JL792",
-		"tours": ["Memorial de la Paz", "Miyajima", "Castillo de Hiroshima"]
+		"tours": ["Memorial de la Paz", "Miyajima", "Castillo de Hiroshima"],
+		"hoteles": [
+			"Hotel Hiroshima Central",
+			"Boutique Hotel Miyajima",
+			"Resort Castillo"
+		],
+		"actividades": [
+			"Tour por el Memorial de la Paz",
+			"Visita a Miyajima",
+			"Paseo en bicicleta por el castillo"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno tradicional"
+		]
 	},
 	{
 		"destination": "Sapporo",
@@ -285,7 +715,18 @@
 		"costMXN": "$35,000",
 		"costUSD": "$1,750",
 		"flight": "JL793",
-		"tours": ["Parque Odori", "Monte Moiwa", "Museo de la Cerveza Sapporo"]
+		"tours": ["Parque Odori", "Monte Moiwa", "Museo de la Cerveza Sapporo"],
+		"hoteles": [
+			"Hotel Sapporo Central",
+			"Boutique Hotel Odori",
+			"Resort Monte Moiwa"
+		],
+		"actividades": [
+			"Tour por el parque Odori",
+			"Visita al museo de la cerveza",
+			"Paseo en teleférico"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno japonés"]
 	},
 	{
 		"destination": "Nagoya",
@@ -297,6 +738,21 @@
 			"Castillo de Nagoya",
 			"Museo de Arte Tokugawa",
 			"Jardín Shirotori"
+		],
+		"hoteles": [
+			"Hotel Nagoya Central",
+			"Boutique Hotel Tokugawa",
+			"Resort Shirotori"
+		],
+		"actividades": [
+			"Tour por el castillo",
+			"Visita al museo de arte",
+			"Paseo en bicicleta por el jardín"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno tradicional"
 		]
 	},
 	{
@@ -305,7 +761,18 @@
 		"costMXN": "$30,000",
 		"costUSD": "$1,500",
 		"flight": "BA101",
-		"tours": ["Big Ben", "London Eye", "Torre de Londres"]
+		"tours": ["Big Ben", "London Eye", "Torre de Londres"],
+		"hoteles": [
+			"Hotel Londres Central",
+			"Boutique Hotel Big Ben",
+			"Resort London Eye"
+		],
+		"actividades": [
+			"Tour en el London Eye",
+			"Visita a la Torre de Londres",
+			"Paseo en bicicleta por el Támesis"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno inglés"]
 	},
 	{
 		"destination": "Edimburgo",
@@ -313,7 +780,18 @@
 		"costMXN": "$28,000",
 		"costUSD": "$1,400",
 		"flight": "BA102",
-		"tours": ["Castillo de Edimburgo", "Royal Mile", "Arthur's Seat"]
+		"tours": ["Castillo de Edimburgo", "Royal Mile", "Arthur's Seat"],
+		"hoteles": [
+			"Hotel Edimburgo Central",
+			"Boutique Hotel Royal Mile",
+			"Resort Arthur's Seat"
+		],
+		"actividades": [
+			"Tour por el castillo",
+			"Visita a la Royal Mile",
+			"Paseo en bicicleta por Arthur's Seat"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno escocés"]
 	},
 	{
 		"destination": "Manchester",
@@ -325,7 +803,18 @@
 			"Old Trafford",
 			"Manchester Cathedral",
 			"Science and Industry Museum"
-		]
+		],
+		"hoteles": [
+			"Hotel Manchester Central",
+			"Boutique Hotel Old Trafford",
+			"Resort Science Museum"
+		],
+		"actividades": [
+			"Tour por Old Trafford",
+			"Visita a la catedral",
+			"Paseo en bicicleta por el museo"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno inglés"]
 	},
 	{
 		"destination": "Liverpool",
@@ -333,7 +822,18 @@
 		"costMXN": "$25,000",
 		"costUSD": "$1,250",
 		"flight": "BA104",
-		"tours": ["The Beatles Story", "Albert Dock", "Catedral de Liverpool"]
+		"tours": ["The Beatles Story", "Albert Dock", "Catedral de Liverpool"],
+		"hoteles": [
+			"Hotel Liverpool Central",
+			"Boutique Hotel Albert Dock",
+			"Resort Beatles Story"
+		],
+		"actividades": [
+			"Tour por The Beatles Story",
+			"Visita al Albert Dock",
+			"Paseo en bicicleta por la catedral"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno inglés"]
 	},
 	{
 		"destination": "Birmingham",
@@ -345,7 +845,18 @@
 			"Museo y Galería de Arte de Birmingham",
 			"Catedral de San Felipe",
 			"Canal de Birmingham"
-		]
+		],
+		"hoteles": [
+			"Hotel Birmingham Central",
+			"Boutique Hotel San Felipe",
+			"Resort Canal"
+		],
+		"actividades": [
+			"Tour por el museo",
+			"Visita a la catedral",
+			"Paseo en bicicleta por el canal"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno inglés"]
 	},
 	{
 		"destination": "Glasgow",
@@ -357,7 +868,18 @@
 			"Galería de Arte Moderno",
 			"Catedral de Glasgow",
 			"Kelvingrove Park"
-		]
+		],
+		"hoteles": [
+			"Hotel Glasgow Central",
+			"Boutique Hotel Kelvingrove",
+			"Resort Catedral"
+		],
+		"actividades": [
+			"Tour por la galería de arte",
+			"Visita a la catedral",
+			"Paseo en bicicleta por el parque"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno escocés"]
 	},
 	{
 		"destination": "Sídney",
@@ -365,7 +887,22 @@
 		"costMXN": "$36,000",
 		"costUSD": "$1,800",
 		"flight": "QF201",
-		"tours": ["Ópera de Sídney", "Puente de la Bahía de Sídney", "Bondi Beach"]
+		"tours": ["Ópera de Sídney", "Puente de la Bahía de Sídney", "Bondi Beach"],
+		"hoteles": [
+			"Hotel Sídney Central",
+			"Boutique Hotel Ópera",
+			"Resort Bondi Beach"
+		],
+		"actividades": [
+			"Tour por la Ópera de Sídney",
+			"Visita al puente",
+			"Paseo en bicicleta por Bondi Beach"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno australiano"
+		]
 	},
 	{
 		"destination": "Melbourne",
@@ -373,7 +910,22 @@
 		"costMXN": "$34,000",
 		"costUSD": "$1,700",
 		"flight": "QF202",
-		"tours": ["Federación Square", "Great Ocean Road", "Royal Botanic Gardens"]
+		"tours": ["Federación Square", "Great Ocean Road", "Royal Botanic Gardens"],
+		"hoteles": [
+			"Hotel Melbourne Central",
+			"Boutique Hotel Federación",
+			"Resort Great Ocean Road"
+		],
+		"actividades": [
+			"Tour por la Great Ocean Road",
+			"Visita a los jardines botánicos",
+			"Paseo en bicicleta por la ciudad"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno australiano"
+		]
 	},
 	{
 		"destination": "Brisbane",
@@ -385,6 +937,21 @@
 			"South Bank Parklands",
 			"Lone Pine Koala Sanctuary",
 			"Story Bridge"
+		],
+		"hoteles": [
+			"Hotel Brisbane Central",
+			"Boutique Hotel South Bank",
+			"Resort Koala Sanctuary"
+		],
+		"actividades": [
+			"Tour por el santuario de koalas",
+			"Visita al Story Bridge",
+			"Paseo en bicicleta por South Bank"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno australiano"
 		]
 	},
 	{
@@ -393,7 +960,22 @@
 		"costMXN": "$33,000",
 		"costUSD": "$1,650",
 		"flight": "QF204",
-		"tours": ["Kings Park", "Swan River", "Cottesloe Beach"]
+		"tours": ["Kings Park", "Swan River", "Cottesloe Beach"],
+		"hoteles": [
+			"Hotel Perth Central",
+			"Boutique Hotel Kings Park",
+			"Resort Swan River"
+		],
+		"actividades": [
+			"Tour por Kings Park",
+			"Visita al río Swan",
+			"Paseo en bicicleta por la playa"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno australiano"
+		]
 	},
 	{
 		"destination": "Adelaida",
@@ -401,7 +983,22 @@
 		"costMXN": "$31,000",
 		"costUSD": "$1,550",
 		"flight": "QF205",
-		"tours": ["Adelaide Central Market", "Barossa Valley", "Glenelg Beach"]
+		"tours": ["Adelaide Central Market", "Barossa Valley", "Glenelg Beach"],
+		"hoteles": [
+			"Hotel Adelaida Central",
+			"Boutique Hotel Barossa",
+			"Resort Glenelg Beach"
+		],
+		"actividades": [
+			"Tour por el mercado central",
+			"Visita a Barossa Valley",
+			"Paseo en bicicleta por la playa"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno australiano"
+		]
 	},
 	{
 		"destination": "Canberra",
@@ -413,6 +1010,21 @@
 			"Parlamento de Australia",
 			"Lago Burley Griffin",
 			"Australian War Memorial"
+		],
+		"hoteles": [
+			"Hotel Canberra Central",
+			"Boutique Hotel Parlamento",
+			"Resort Lago Burley"
+		],
+		"actividades": [
+			"Tour por el parlamento",
+			"Visita al lago",
+			"Paseo en bicicleta por el memorial"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno australiano"
 		]
 	},
 	{
@@ -421,7 +1033,18 @@
 		"costMXN": "$18,000",
 		"costUSD": "$900",
 		"flight": "AR101",
-		"tours": ["Casa Rosada", "La Boca", "Recoleta"]
+		"tours": ["Casa Rosada", "La Boca", "Recoleta"],
+		"hoteles": [
+			"Hotel Buenos Aires Central",
+			"Boutique Hotel La Boca",
+			"Resort Recoleta"
+		],
+		"actividades": [
+			"Tour por La Boca",
+			"Visita a la Casa Rosada",
+			"Paseo en bicicleta por Recoleta"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno argentino"]
 	},
 	{
 		"destination": "Mendoza",
@@ -429,7 +1052,18 @@
 		"costMXN": "$17,000",
 		"costUSD": "$850",
 		"flight": "AR102",
-		"tours": ["Bodegas de Vino", "Aconcagua", "Parque General San Martín"]
+		"tours": ["Bodegas de Vino", "Aconcagua", "Parque General San Martín"],
+		"hoteles": [
+			"Hotel Mendoza Central",
+			"Boutique Hotel Bodegas",
+			"Resort Aconcagua"
+		],
+		"actividades": [
+			"Tour por las bodegas",
+			"Visita al Aconcagua",
+			"Paseo en bicicleta por el parque"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno argentino"]
 	},
 	{
 		"destination": "Bariloche",
@@ -437,7 +1071,22 @@
 		"costMXN": "$19,000",
 		"costUSD": "$950",
 		"flight": "AR103",
-		"tours": ["Cerro Catedral", "Lago Nahuel Huapi", "Circuito Chico"]
+		"tours": ["Cerro Catedral", "Lago Nahuel Huapi", "Circuito Chico"],
+		"hoteles": [
+			"Hotel Bariloche Central",
+			"Boutique Hotel Cerro Catedral",
+			"Resort Nahuel Huapi"
+		],
+		"actividades": [
+			"Tour por el Cerro Catedral",
+			"Visita al lago",
+			"Paseo en bicicleta por el circuito"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno patagónico"
+		]
 	},
 	{
 		"destination": "Córdoba",
@@ -449,7 +1098,18 @@
 			"Manzana Jesuítica",
 			"Cerro de las Rosas",
 			"Paseo del Buen Pastor"
-		]
+		],
+		"hoteles": [
+			"Hotel Córdoba Central",
+			"Boutique Hotel Manzana",
+			"Resort Cerro de las Rosas"
+		],
+		"actividades": [
+			"Tour por la Manzana Jesuítica",
+			"Visita al Cerro de las Rosas",
+			"Paseo en bicicleta por el Paseo del Buen Pastor"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno argentino"]
 	},
 	{
 		"destination": "Salta",
@@ -457,7 +1117,18 @@
 		"costMXN": "$17,500",
 		"costUSD": "$875",
 		"flight": "AR105",
-		"tours": ["Cerro San Bernardo", "Cafayate", "Tren a las Nubes"]
+		"tours": ["Cerro San Bernardo", "Cafayate", "Tren a las Nubes"],
+		"hoteles": [
+			"Hotel Salta Central",
+			"Boutique Hotel Cafayate",
+			"Resort Tren a las Nubes"
+		],
+		"actividades": [
+			"Tour por el Cerro San Bernardo",
+			"Visita a Cafayate",
+			"Paseo en el Tren a las Nubes"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno argentino"]
 	},
 	{
 		"destination": "Ushuaia",
@@ -469,6 +1140,21 @@
 			"Parque Nacional Tierra del Fuego",
 			"Canal Beagle",
 			"Glaciar Martial"
+		],
+		"hoteles": [
+			"Hotel Ushuaia Central",
+			"Boutique Hotel Tierra del Fuego",
+			"Resort Canal Beagle"
+		],
+		"actividades": [
+			"Tour por el Parque Nacional",
+			"Visita al Canal Beagle",
+			"Paseo en bicicleta por el glaciar"
+		],
+		"extras": [
+			"Traslado al aeropuerto",
+			"Guía turístico",
+			"Desayuno patagónico"
 		]
 	},
 	{
@@ -477,7 +1163,18 @@
 		"costMXN": "$20,000",
 		"costUSD": "$1,000",
 		"flight": "BR101",
-		"tours": ["Cristo Redentor", "Pan de Azúcar", "Copacabana"]
+		"tours": ["Cristo Redentor", "Pan de Azúcar", "Copacabana"],
+		"hoteles": [
+			"Hotel Río Central",
+			"Boutique Hotel Copacabana",
+			"Resort Pan de Azúcar"
+		],
+		"actividades": [
+			"Tour por el Cristo Redentor",
+			"Visita al Pan de Azúcar",
+			"Paseo en bicicleta por Copacabana"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno brasileño"]
 	},
 	{
 		"destination": "São Paulo",
@@ -489,7 +1186,18 @@
 			"Avenida Paulista",
 			"Parque Ibirapuera",
 			"Museo de Arte de São Paulo"
-		]
+		],
+		"hoteles": [
+			"Hotel São Paulo Central",
+			"Boutique Hotel Paulista",
+			"Resort Ibirapuera"
+		],
+		"actividades": [
+			"Tour por la Avenida Paulista",
+			"Visita al parque",
+			"Paseo en bicicleta por el museo"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno brasileño"]
 	},
 	{
 		"destination": "Foz do Iguaçu",
@@ -497,7 +1205,18 @@
 		"costMXN": "$18,000",
 		"costUSD": "$900",
 		"flight": "BR103",
-		"tours": ["Cataratas del Iguazú", "Itaipú Binacional", "Parque das Aves"]
+		"tours": ["Cataratas del Iguazú", "Itaipú Binacional", "Parque das Aves"],
+		"hoteles": [
+			"Hotel Foz Central",
+			"Boutique Hotel Cataratas",
+			"Resort Itaipú"
+		],
+		"actividades": [
+			"Tour por las cataratas",
+			"Visita a Itaipú",
+			"Paseo en bicicleta por el parque"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno brasileño"]
 	},
 	{
 		"destination": "Salvador",
@@ -509,7 +1228,18 @@
 			"Pelourinho",
 			"Farol da Barra",
 			"Iglesia de Nosso Senhor do Bonfim"
-		]
+		],
+		"hoteles": [
+			"Hotel Salvador Central",
+			"Boutique Hotel Pelourinho",
+			"Resort Farol da Barra"
+		],
+		"actividades": [
+			"Tour por Pelourinho",
+			"Visita al faro",
+			"Paseo en bicicleta por la iglesia"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno brasileño"]
 	},
 	{
 		"destination": "Brasilia",
@@ -521,7 +1251,18 @@
 			"Plaza de los Tres Poderes",
 			"Catedral de Brasilia",
 			"Lago Paranoá"
-		]
+		],
+		"hoteles": [
+			"Hotel Brasilia Central",
+			"Boutique Hotel Tres Poderes",
+			"Resort Lago Paranoá"
+		],
+		"actividades": [
+			"Tour por la Plaza de los Tres Poderes",
+			"Visita a la catedral",
+			"Paseo en bicicleta por el lago"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno brasileño"]
 	},
 	{
 		"destination": "Recife",
@@ -529,6 +1270,17 @@
 		"costMXN": "$17,500",
 		"costUSD": "$875",
 		"flight": "BR106",
-		"tours": ["Playa Boa Viagem", "Centro Histórico", "Isla de Itamaracá"]
+		"tours": ["Playa Boa Viagem", "Centro Histórico", "Isla de Itamaracá"],
+		"hoteles": [
+			"Hotel Recife Central",
+			"Boutique Hotel Boa Viagem",
+			"Resort Itamaracá"
+		],
+		"actividades": [
+			"Tour por la playa",
+			"Visita al centro histórico",
+			"Paseo en bicicleta por la isla"
+		],
+		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno brasileño"]
 	}
 ]

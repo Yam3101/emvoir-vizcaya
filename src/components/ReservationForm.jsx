@@ -117,7 +117,7 @@ const ReservationForm = () => {
 				</div>
 				<button
 					type="button"
-					className="w-full md:w-auto hover:bg-sky-950 bg-sky-900 text-white p-2 rounded-md"
+					className="w-full md:w-auto hover:bg-sky-950 bg-sky-800 text-white p-2 rounded-md duration-200"
 					onClick={handleSearch}
 				>
 					Buscar
@@ -147,17 +147,28 @@ const ReservationForm = () => {
 										<h3 className="font-semibold">
 											{option.destination}, {option.country}
 										</h3>
-										<h4>Costo en MXN: {option.costMXN}</h4>
-										<h4>Costo en USD: {option.costUSD}</h4>
-										<h4>Vuelo: {option.flight}</h4>
 										<h4>Tours: {option.tours.join(", ")}</h4>
-										<button
-											type="button"
-											className="bg-sky-700 text-white py-2 px-4 rounded-sm hover:bg-sky-800"
-											onClick={() => handleConfirm(option)}
-										>
-											Reservar
-										</button>
+										<h4>Vuelo: {option.flight}</h4>
+										<h4>Hotel: {option.hotel}</h4>
+										<h4>Actividades: {option.actividades.join(", ")}</h4>
+										<h4>Extras: {option.extras.join(", ")}</h4>
+										<section className="flex flex-wrap items-center justify-end space-x-3">
+											<div className="flex flex-col space-y-[-5px]">
+												<h5 className="text-sm text-right text-sky-950 font-semibold">
+													{option.costUSD}USD
+												</h5>
+												<h4 className="font-semibold text-xl">
+													{option.costMXN}MXN
+												</h4>
+											</div>
+											<button
+												type="button"
+												className="bg-sky-700 text-white py-2 px-4 rounded-sm hover:bg-sky-900 duration-200"
+												onClick={() => handleConfirm(option)}
+											>
+												Reservar
+											</button>
+										</section>
 									</div>
 								))
 							) : (
@@ -166,7 +177,7 @@ const ReservationForm = () => {
 						</div>
 						<button
 							type="button"
-							className="mx-6 mb-6 bg-rose-600 text-white py-2 px-4 rounded-md hover:bg-rose-700"
+							className="mx-6 mb-6 bg-rose-600 text-white py-2 px-4 rounded-md hover:bg-rose-700 duration-200"
 							onClick={() => setShowModal(false)}
 						>
 							Cancelar
@@ -185,7 +196,7 @@ const ReservationForm = () => {
 						</p>
 						<button
 							type="button"
-							className="mt-4 bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600"
+							className="mt-4 bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 duration-200"
 							onClick={closeConfirmationModal}
 						>
 							Cerrar
