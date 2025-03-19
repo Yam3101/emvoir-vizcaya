@@ -125,43 +125,51 @@ const ReservationForm = () => {
 			</div>
 
 			{showAlert && (
-				<div className="fixed bottom-4 right-4 bg-red-500 text-white p-4 rounded-lg shadow-lg">
+				<div className="fixed bottom-4 right-4 bg-rose-700 text-white p-4 rounded-lg shadow-lg">
 					Por favor, completa todos los campos.
 				</div>
 			)}
 
 			{showModal && (
 				<div className="fixed inset-0 bg-black/85 flex items-center justify-center p-4">
-					<div className="bg-white p-6 rounded-lg shadow-lg w-full md:w-1/2 max-h-[80vh] overflow-y-auto">
-						<h2 className="text-xl font-bold mb-4">Opciones de Viaje</h2>
-						{options.length > 0 ? (
-							options.map((option, index) => (
-								// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
-								<div key={index} className="mb-4">
-									<h3 className="font-semibold">
-										{option.destination}, {option.country}
-									</h3>
-									<p>Costo: {option.cost}</p>
-									<p>Vuelo: {option.flight}</p>
-									<p>Tours: {option.tours.join(", ")}</p>
-									<button
-										type="button"
-										className="mt-2 bg-green-500 text-white p-2 rounded-md hover:bg-green-600"
-										onClick={() => handleConfirm(option)}
+					<div className="bg-white rounded-md shadow-lg w-full md:w-1/2 max-h-[80vh] overflow-y-auto">
+						<h2 className="text-xl text-white font-bold p-6 bg-sky-950 sticky top-0">
+							DESTINOS DISPONIBLES
+						</h2>
+						<div className="p-6 flex flex-col gap-2">
+							{options.length > 0 ? (
+								options.map((option, index) => (
+									<div
+										// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+										key={index}
+										className="border-2 border-stone-300 rounded-lg p-4"
 									>
-										Confirmar Reserva
-									</button>
-								</div>
-							))
-						) : (
-							<p>No se encontraron opciones para este destino.</p>
-						)}
+										<h3 className="font-semibold">
+											{option.destination}, {option.country}
+										</h3>
+										<h4>Costo en MXN: {option.costMXN}</h4>
+										<h4>Costo en USD: {option.costUSD}</h4>
+										<h4>Vuelo: {option.flight}</h4>
+										<h4>Tours: {option.tours.join(", ")}</h4>
+										<button
+											type="button"
+											className="bg-sky-700 text-white py-2 px-4 rounded-sm hover:bg-sky-800"
+											onClick={() => handleConfirm(option)}
+										>
+											Reservar
+										</button>
+									</div>
+								))
+							) : (
+								<p>No se encontraron opciones para este destino.</p>
+							)}
+						</div>
 						<button
 							type="button"
-							className="mt-4 bg-red-500 text-white p-2 rounded-md hover:bg-red-600"
+							className="mx-6 mb-6 bg-rose-600 text-white py-2 px-4 rounded-md hover:bg-rose-700"
 							onClick={() => setShowModal(false)}
 						>
-							Cerrar
+							Cancelar
 						</button>
 					</div>
 				</div>
@@ -172,8 +180,8 @@ const ReservationForm = () => {
 					<div className="bg-white p-6 rounded-lg shadow-lg w-full md:w-1/3">
 						<h2 className="text-xl font-bold mb-4">Reserva Confirmada</h2>
 						<p>
-							Tu reserva para <strong>{confirmedDestination}</strong> ha sido
-							confirmada.
+							¡Tu reserva para <strong>{confirmedDestination}</strong> ha sido
+							confirmada!
 						</p>
 						<button
 							type="button"

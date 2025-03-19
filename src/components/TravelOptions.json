@@ -2,147 +2,324 @@
 	{
 		"destination": "Ciudad de México",
 		"country": "México",
-		"cost": "$800",
+		"costMXN": "$16,000",
+		"costUSD": "$800",
 		"flight": "MX101",
 		"tours": ["Zócalo", "Museo Frida Kahlo", "Teotihuacán"]
 	},
 	{
 		"destination": "Cancún",
 		"country": "México",
-		"cost": "$1000",
+		"costMXN": "$20,000",
+		"costUSD": "$1,000",
 		"flight": "MX102",
 		"tours": ["Playa Delfines", "Chichén Itzá", "Xcaret"]
 	},
 	{
 		"destination": "Guadalajara",
 		"country": "México",
-		"cost": "$700",
+		"costMXN": "$14,000",
+		"costUSD": "$700",
 		"flight": "MX103",
 		"tours": ["Catedral de Guadalajara", "Tlaquepaque", "Lago de Chapala"]
 	},
 	{
+		"destination": "Oaxaca",
+		"country": "México",
+		"costMXN": "$15,000",
+		"costUSD": "$750",
+		"flight": "MX104",
+		"tours": ["Monte Albán", "Hierve el Agua", "Centro Histórico"]
+	},
+	{
+		"destination": "Puebla",
+		"country": "México",
+		"costMXN": "$13,000",
+		"costUSD": "$650",
+		"flight": "MX105",
+		"tours": ["Catedral de Puebla", "Zócalo", "Cholula"]
+	},
+	{
+		"destination": "Puerto Vallarta",
+		"country": "México",
+		"costMXN": "$18,000",
+		"costUSD": "$900",
+		"flight": "MX106",
+		"tours": ["Malecón", "Islas Marietas", "Playa Los Muertos"]
+	},
+	{
 		"destination": "Nueva York",
 		"country": "Estados Unidos",
-		"cost": "$1500",
+		"costMXN": "$30,000",
+		"costUSD": "$1,500",
 		"flight": "AA456",
 		"tours": ["Estatua de la Libertad", "Central Park", "Times Square"]
 	},
 	{
 		"destination": "Los Ángeles",
 		"country": "Estados Unidos",
-		"cost": "$1400",
+		"costMXN": "$28,000",
+		"costUSD": "$1,400",
 		"flight": "AA457",
 		"tours": ["Hollywood Sign", "Santa Mónica", "Universal Studios"]
 	},
 	{
 		"destination": "Miami",
 		"country": "Estados Unidos",
-		"cost": "$1300",
+		"costMXN": "$26,000",
+		"costUSD": "$1,300",
 		"flight": "AA458",
 		"tours": ["South Beach", "Everglades", "Little Havana"]
 	},
 	{
+		"destination": "Las Vegas",
+		"country": "Estados Unidos",
+		"costMXN": "$25,000",
+		"costUSD": "$1,250",
+		"flight": "AA459",
+		"tours": ["Strip de Las Vegas", "Gran Cañón", "Fremont Street"]
+	},
+	{
+		"destination": "Chicago",
+		"country": "Estados Unidos",
+		"costMXN": "$24,000",
+		"costUSD": "$1,200",
+		"flight": "AA460",
+		"tours": ["Millennium Park", "Willis Tower", "Navy Pier"]
+	},
+	{
+		"destination": "San Francisco",
+		"country": "Estados Unidos",
+		"costMXN": "$27,000",
+		"costUSD": "$1,350",
+		"flight": "AA461",
+		"tours": ["Golden Gate", "Alcatraz", "Puente de Oakland"]
+	},
+	{
 		"destination": "Toronto",
 		"country": "Canadá",
-		"cost": "$1100",
+		"costMXN": "$22,000",
+		"costUSD": "$1,100",
 		"flight": "AC201",
 		"tours": ["CN Tower", "Niagara Falls", "Distillery District"]
 	},
 	{
 		"destination": "Vancouver",
 		"country": "Canadá",
-		"cost": "$1200",
+		"costMXN": "$24,000",
+		"costUSD": "$1,200",
 		"flight": "AC202",
 		"tours": ["Stanley Park", "Granville Island", "Capilano Suspension Bridge"]
 	},
 	{
 		"destination": "Montreal",
 		"country": "Canadá",
-		"cost": "$1000",
+		"costMXN": "$20,000",
+		"costUSD": "$1,000",
 		"flight": "AC203",
 		"tours": ["Basílica de Notre-Dame", "Montreal Old Port", "Mount Royal"]
 	},
 	{
+		"destination": "Calgary",
+		"country": "Canadá",
+		"costMXN": "$21,000",
+		"costUSD": "$1,050",
+		"flight": "AC204",
+		"tours": ["Calgary Tower", "Banff National Park", "Heritage Park"]
+	},
+	{
+		"destination": "Quebec",
+		"country": "Canadá",
+		"costMXN": "$23,000",
+		"costUSD": "$1,150",
+		"flight": "AC205",
+		"tours": ["Old Quebec", "Montmorency Falls", "Plains of Abraham"]
+	},
+	{
+		"destination": "Ottawa",
+		"country": "Canadá",
+		"costMXN": "$19,000",
+		"costUSD": "$950",
+		"flight": "AC206",
+		"tours": ["Parliament Hill", "Rideau Canal", "National Gallery"]
+	},
+	{
 		"destination": "París",
 		"country": "Francia",
-		"cost": "$1200",
+		"costMXN": "$24,000",
+		"costUSD": "$1,200",
 		"flight": "AF123",
 		"tours": ["Tour Eiffel", "Louvre", "Catedral de Notre-Dame"]
 	},
 	{
 		"destination": "Niza",
 		"country": "Francia",
-		"cost": "$1100",
+		"costMXN": "$22,000",
+		"costUSD": "$1,100",
 		"flight": "AF124",
 		"tours": ["Promenade des Anglais", "Vieille Ville", "Castle Hill"]
 	},
 	{
 		"destination": "Burdeos",
 		"country": "Francia",
-		"cost": "$1000",
+		"costMXN": "$20,000",
+		"costUSD": "$1,000",
 		"flight": "AF125",
 		"tours": ["Place de la Bourse", "Cité du Vin", "Basilique Saint-Michel"]
 	},
 	{
+		"destination": "Lyon",
+		"country": "Francia",
+		"costMXN": "$19,000",
+		"costUSD": "$950",
+		"flight": "AF126",
+		"tours": [
+			"Vieux Lyon",
+			"Basilique Notre-Dame de Fourvière",
+			"Parc de la Tête d'Or"
+		]
+	},
+	{
+		"destination": "Marsella",
+		"country": "Francia",
+		"costMXN": "$21,000",
+		"costUSD": "$1,050",
+		"flight": "AF127",
+		"tours": ["Vieux Port", "Basilique Notre-Dame de la Garde", "Calanques"]
+	},
+	{
+		"destination": "Estrasburgo",
+		"country": "Francia",
+		"costMXN": "$18,000",
+		"costUSD": "$900",
+		"flight": "AF128",
+		"tours": ["Catedral de Estrasburgo", "Petite France", "Parlamento Europeo"]
+	},
+	{
 		"destination": "Roma",
 		"country": "Italia",
-		"cost": "$1300",
+		"costMXN": "$26,000",
+		"costUSD": "$1,300",
 		"flight": "AZ321",
 		"tours": ["Coliseo", "Fontana di Trevi", "Vaticano"]
 	},
 	{
 		"destination": "Venecia",
 		"country": "Italia",
-		"cost": "$1400",
+		"costMXN": "$28,000",
+		"costUSD": "$1,400",
 		"flight": "AZ322",
 		"tours": ["Canal Grande", "Piazza San Marco", "Puente de Rialto"]
 	},
 	{
 		"destination": "Florencia",
 		"country": "Italia",
-		"cost": "$1200",
+		"costMXN": "$24,000",
+		"costUSD": "$1,200",
 		"flight": "AZ323",
 		"tours": ["Duomo", "Galería Uffizi", "Ponte Vecchio"]
 	},
 	{
+		"destination": "Milán",
+		"country": "Italia",
+		"costMXN": "$25,000",
+		"costUSD": "$1,250",
+		"flight": "AZ324",
+		"tours": [
+			"Catedral de Milán",
+			"Teatro La Scala",
+			"Galería Vittorio Emanuele II"
+		]
+	},
+	{
+		"destination": "Nápoles",
+		"country": "Italia",
+		"costMXN": "$23,000",
+		"costUSD": "$1,150",
+		"flight": "AZ325",
+		"tours": ["Pompeya", "Monte Vesubio", "Castel dell'Ovo"]
+	},
+	{
+		"destination": "Turín",
+		"country": "Italia",
+		"costMXN": "$22,000",
+		"costUSD": "$1,100",
+		"flight": "AZ326",
+		"tours": ["Museo Egipcio", "Palacio Real de Turín", "Mole Antonelliana"]
+	},
+	{
 		"destination": "Tokio",
 		"country": "Japón",
-		"cost": "$2000",
+		"costMXN": "$40,000",
+		"costUSD": "$2,000",
 		"flight": "JL789",
 		"tours": ["Shibuya Crossing", "Templo Senso-ji", "Monte Fuji"]
 	},
 	{
 		"destination": "Kioto",
 		"country": "Japón",
-		"cost": "$1900",
+		"costMXN": "$38,000",
+		"costUSD": "$1,900",
 		"flight": "JL790",
 		"tours": ["Fushimi Inari Taisha", "Kinkaku-ji", "Arashiyama"]
 	},
 	{
 		"destination": "Osaka",
 		"country": "Japón",
-		"cost": "$1800",
+		"costMXN": "$36,000",
+		"costUSD": "$1,800",
 		"flight": "JL791",
 		"tours": ["Castillo de Osaka", "Dotonbori", "Acuario de Osaka"]
 	},
 	{
+		"destination": "Hiroshima",
+		"country": "Japón",
+		"costMXN": "$34,000",
+		"costUSD": "$1,700",
+		"flight": "JL792",
+		"tours": ["Memorial de la Paz", "Miyajima", "Castillo de Hiroshima"]
+	},
+	{
+		"destination": "Sapporo",
+		"country": "Japón",
+		"costMXN": "$35,000",
+		"costUSD": "$1,750",
+		"flight": "JL793",
+		"tours": ["Parque Odori", "Monte Moiwa", "Museo de la Cerveza Sapporo"]
+	},
+	{
+		"destination": "Nagoya",
+		"country": "Japón",
+		"costMXN": "$33,000",
+		"costUSD": "$1,650",
+		"flight": "JL794",
+		"tours": [
+			"Castillo de Nagoya",
+			"Museo de Arte Tokugawa",
+			"Jardín Shirotori"
+		]
+	},
+	{
 		"destination": "Londres",
 		"country": "Reino Unido",
-		"cost": "$1500",
+		"costMXN": "$30,000",
+		"costUSD": "$1,500",
 		"flight": "BA101",
 		"tours": ["Big Ben", "London Eye", "Torre de Londres"]
 	},
 	{
 		"destination": "Edimburgo",
 		"country": "Reino Unido",
-		"cost": "$1400",
+		"costMXN": "$28,000",
+		"costUSD": "$1,400",
 		"flight": "BA102",
 		"tours": ["Castillo de Edimburgo", "Royal Mile", "Arthur's Seat"]
 	},
 	{
 		"destination": "Manchester",
 		"country": "Reino Unido",
-		"cost": "$1300",
+		"costMXN": "$26,000",
+		"costUSD": "$1,300",
 		"flight": "BA103",
 		"tours": [
 			"Old Trafford",
@@ -151,23 +328,58 @@
 		]
 	},
 	{
+		"destination": "Liverpool",
+		"country": "Reino Unido",
+		"costMXN": "$25,000",
+		"costUSD": "$1,250",
+		"flight": "BA104",
+		"tours": ["The Beatles Story", "Albert Dock", "Catedral de Liverpool"]
+	},
+	{
+		"destination": "Birmingham",
+		"country": "Reino Unido",
+		"costMXN": "$24,000",
+		"costUSD": "$1,200",
+		"flight": "BA105",
+		"tours": [
+			"Museo y Galería de Arte de Birmingham",
+			"Catedral de San Felipe",
+			"Canal de Birmingham"
+		]
+	},
+	{
+		"destination": "Glasgow",
+		"country": "Reino Unido",
+		"costMXN": "$27,000",
+		"costUSD": "$1,350",
+		"flight": "BA106",
+		"tours": [
+			"Galería de Arte Moderno",
+			"Catedral de Glasgow",
+			"Kelvingrove Park"
+		]
+	},
+	{
 		"destination": "Sídney",
 		"country": "Australia",
-		"cost": "$1800",
+		"costMXN": "$36,000",
+		"costUSD": "$1,800",
 		"flight": "QF201",
 		"tours": ["Ópera de Sídney", "Puente de la Bahía de Sídney", "Bondi Beach"]
 	},
 	{
 		"destination": "Melbourne",
 		"country": "Australia",
-		"cost": "$1700",
+		"costMXN": "$34,000",
+		"costUSD": "$1,700",
 		"flight": "QF202",
 		"tours": ["Federación Square", "Great Ocean Road", "Royal Botanic Gardens"]
 	},
 	{
 		"destination": "Brisbane",
 		"country": "Australia",
-		"cost": "$1600",
+		"costMXN": "$32,000",
+		"costUSD": "$1,600",
 		"flight": "QF203",
 		"tours": [
 			"South Bank Parklands",
@@ -176,37 +388,102 @@
 		]
 	},
 	{
+		"destination": "Perth",
+		"country": "Australia",
+		"costMXN": "$33,000",
+		"costUSD": "$1,650",
+		"flight": "QF204",
+		"tours": ["Kings Park", "Swan River", "Cottesloe Beach"]
+	},
+	{
+		"destination": "Adelaida",
+		"country": "Australia",
+		"costMXN": "$31,000",
+		"costUSD": "$1,550",
+		"flight": "QF205",
+		"tours": ["Adelaide Central Market", "Barossa Valley", "Glenelg Beach"]
+	},
+	{
+		"destination": "Canberra",
+		"country": "Australia",
+		"costMXN": "$30,000",
+		"costUSD": "$1,500",
+		"flight": "QF206",
+		"tours": [
+			"Parlamento de Australia",
+			"Lago Burley Griffin",
+			"Australian War Memorial"
+		]
+	},
+	{
 		"destination": "Buenos Aires",
 		"country": "Argentina",
-		"cost": "$900",
+		"costMXN": "$18,000",
+		"costUSD": "$900",
 		"flight": "AR101",
 		"tours": ["Casa Rosada", "La Boca", "Recoleta"]
 	},
 	{
 		"destination": "Mendoza",
 		"country": "Argentina",
-		"cost": "$850",
+		"costMXN": "$17,000",
+		"costUSD": "$850",
 		"flight": "AR102",
 		"tours": ["Bodegas de Vino", "Aconcagua", "Parque General San Martín"]
 	},
 	{
 		"destination": "Bariloche",
 		"country": "Argentina",
-		"cost": "$950",
+		"costMXN": "$19,000",
+		"costUSD": "$950",
 		"flight": "AR103",
 		"tours": ["Cerro Catedral", "Lago Nahuel Huapi", "Circuito Chico"]
 	},
 	{
+		"destination": "Córdoba",
+		"country": "Argentina",
+		"costMXN": "$16,000",
+		"costUSD": "$800",
+		"flight": "AR104",
+		"tours": [
+			"Manzana Jesuítica",
+			"Cerro de las Rosas",
+			"Paseo del Buen Pastor"
+		]
+	},
+	{
+		"destination": "Salta",
+		"country": "Argentina",
+		"costMXN": "$17,500",
+		"costUSD": "$875",
+		"flight": "AR105",
+		"tours": ["Cerro San Bernardo", "Cafayate", "Tren a las Nubes"]
+	},
+	{
+		"destination": "Ushuaia",
+		"country": "Argentina",
+		"costMXN": "$20,000",
+		"costUSD": "$1,000",
+		"flight": "AR106",
+		"tours": [
+			"Parque Nacional Tierra del Fuego",
+			"Canal Beagle",
+			"Glaciar Martial"
+		]
+	},
+	{
 		"destination": "Río de Janeiro",
 		"country": "Brasil",
-		"cost": "$1000",
+		"costMXN": "$20,000",
+		"costUSD": "$1,000",
 		"flight": "BR101",
 		"tours": ["Cristo Redentor", "Pan de Azúcar", "Copacabana"]
 	},
 	{
 		"destination": "São Paulo",
 		"country": "Brasil",
-		"cost": "$950",
+		"costMXN": "$19,000",
+		"costUSD": "$950",
 		"flight": "BR102",
 		"tours": [
 			"Avenida Paulista",
@@ -217,8 +494,41 @@
 	{
 		"destination": "Foz do Iguaçu",
 		"country": "Brasil",
-		"cost": "$900",
+		"costMXN": "$18,000",
+		"costUSD": "$900",
 		"flight": "BR103",
 		"tours": ["Cataratas del Iguazú", "Itaipú Binacional", "Parque das Aves"]
+	},
+	{
+		"destination": "Salvador",
+		"country": "Brasil",
+		"costMXN": "$17,000",
+		"costUSD": "$850",
+		"flight": "BR104",
+		"tours": [
+			"Pelourinho",
+			"Farol da Barra",
+			"Iglesia de Nosso Senhor do Bonfim"
+		]
+	},
+	{
+		"destination": "Brasilia",
+		"country": "Brasil",
+		"costMXN": "$16,500",
+		"costUSD": "$825",
+		"flight": "BR105",
+		"tours": [
+			"Plaza de los Tres Poderes",
+			"Catedral de Brasilia",
+			"Lago Paranoá"
+		]
+	},
+	{
+		"destination": "Recife",
+		"country": "Brasil",
+		"costMXN": "$17,500",
+		"costUSD": "$875",
+		"flight": "BR106",
+		"tours": ["Playa Boa Viagem", "Centro Histórico", "Isla de Itamaracá"]
 	}
 ]
