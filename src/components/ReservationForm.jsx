@@ -144,7 +144,7 @@ const ReservationForm = () => {
 										key={index}
 										className="border-2 border-stone-300 rounded-lg p-4"
 									>
-										<h3 className="font-semibold">
+										<h3 className="font-semibold text-2xl">
 											{option.destination}, {option.country}
 										</h3>
 										<h4>Tours: {option.tours.join(", ")}</h4>

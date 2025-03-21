@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'DM Sans';
+  font-display: swap;
+  src: url('/fonts/DMSans-VariableFont_opsz\,wght.woff2') format('woff2');
+}
+
+.dmsans {
+  font-family: 'DM Sans';
+}
+
+@font-face {
+    font-family: 'Teachers';
+    font-display: swap;
+    src: url('/fonts/Teachers-VariableFont_wght.woff2') format('woff2');
+  }
+
+.teachers {
+    font-family: 'Teachers';
+}
