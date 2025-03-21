@@ -52,9 +52,10 @@ const ReservationForm = () => {
 
 	return (
 		<div className="py-4">
-			<div className="bg-white py-6 px-4 md:px-8 mx-4 rounded-lg shadow-md flex flex-col space-y-4">
+			{/* Formulario de reservas */}
+			<div className="bg-white py-6 px-8 md:px-8 rounded-lg shadow-md flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0 items-end">
 				{/* Selección de país */}
-				<div className="w-full">
+				<div className="w-full md:flex-1">
 					<label className="block text-sm font-medium text-gray-700 mb-1">
 						País
 					</label>
@@ -74,61 +75,57 @@ const ReservationForm = () => {
 				</div>
 
 				{/* Fechas de llegada y salida */}
-				<div className="grid grid-cols-2 gap-4">
-					<div>
-						<label className="block text-sm font-medium text-gray-700 mb-1">
-							Llegada
-						</label>
-						<input
-							type="date"
-							className="w-full p-2 border border-gray-300 rounded-md"
-							value={arrival}
-							onChange={(e) => setArrival(e.target.value)}
-						/>
-					</div>
-					<div>
-						<label className="block text-sm font-medium text-gray-700 mb-1">
-							Salida
-						</label>
-						<input
-							type="date"
-							className="w-full p-2 border border-gray-300 rounded-md"
-							value={departure}
-							onChange={(e) => setDeparture(e.target.value)}
-						/>
-					</div>
+				<div className="w-full md:w-auto">
+					<label className="block text-sm font-medium text-gray-700 mb-1">
+						Llegada
+					</label>
+					<input
+						type="date"
+						className="w-full p-2 border border-gray-300 rounded-md"
+						value={arrival}
+						onChange={(e) => setArrival(e.target.value)}
+					/>
+				</div>
+				<div className="w-full md:w-auto">
+					<label className="block text-sm font-medium text-gray-700 mb-1">
+						Salida
+					</label>
+					<input
+						type="date"
+						className="w-full p-2 border border-gray-300 rounded-md"
+						value={departure}
+						onChange={(e) => setDeparture(e.target.value)}
+					/>
 				</div>
 
 				{/* Huéspedes y habitaciones */}
-				<div className="grid grid-cols-2 gap-4">
-					<div>
-						<label className="block text-sm font-medium text-gray-700 mb-1">
-							Huéspedes
-						</label>
-						<input
-							type="number"
-							className="w-full p-2 border border-gray-300 rounded-md"
-							value={guests}
-							onChange={(e) => setGuests(e.target.value)}
-						/>
-					</div>
-					<div>
-						<label className="block text-sm font-medium text-gray-700 mb-1">
-							Habitaciones
-						</label>
-						<input
-							type="number"
-							className="w-full p-2 border border-gray-300 rounded-md"
-							value={rooms}
-							onChange={(e) => setRooms(e.target.value)}
-						/>
-					</div>
+				<div className="w-full md:w-24">
+					<label className="block text-sm font-medium text-gray-700 mb-1">
+						Huéspedes
+					</label>
+					<input
+						type="number"
+						className="w-full p-2 border border-gray-300 rounded-md"
+						value={guests}
+						onChange={(e) => setGuests(e.target.value)}
+					/>
+				</div>
+				<div className="w-full md:w-24">
+					<label className="block text-sm font-medium text-gray-700 mb-1">
+						Habitaciones
+					</label>
+					<input
+						type="number"
+						className="w-full p-2 border border-gray-300 rounded-md"
+						value={rooms}
+						onChange={(e) => setRooms(e.target.value)}
+					/>
 				</div>
 
 				{/* Botón de búsqueda */}
 				<button
 					type="button"
-					className="w-full bg-sky-800 text-white p-2 rounded-md hover:bg-sky-950 duration-200"
+					className="w-full md:w-auto bg-sky-800 text-white p-2 rounded-md hover:bg-sky-950 duration-200"
 					onClick={handleSearch}
 				>
 					Buscar
@@ -145,7 +142,7 @@ const ReservationForm = () => {
 			{/* Modal de opciones de viaje */}
 			{showModal && (
 				<div className="fixed inset-0 bg-black/85 flex items-center justify-center p-4">
-					<div className="bg-white rounded-md shadow-lg w-full max-w-md max-h-[80vh] overflow-y-auto">
+					<div className="bg-white rounded-md shadow-lg w-full max-w-4xl max-h-[80vh] overflow-y-auto">
 						<h2 className="text-xl text-white font-bold p-4 bg-sky-950 sticky top-0">
 							DESTINOS DISPONIBLES
 						</h2>
