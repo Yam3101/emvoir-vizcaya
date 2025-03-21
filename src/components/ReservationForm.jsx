@@ -173,17 +173,22 @@ const ReservationForm = () => {
 												Tours y visitas en {option.tours.join(", ")}
 											</h4>
 											<h4 className="text-[15px]">
-												Actividades: {option.actividades.join(", ")}
-											</h4>
-											<h4 className="text-[15px]">
 												Hospedaje: {option.hoteles.join(", ")}
 											</h4>
-											<h4 className="text-[15px]">
-												Servicios extra: {option.extras.join(", ")}
-											</h4>
-											<h4 className="text-sm text-stone-500">
-												Vuelo: {option.flight}
-											</h4>
+											<details>
+												<summary className="text-[15px]">
+													Más información
+												</summary>
+												<h4 className="text-[15px]">
+													Actividades: {option.actividades.join(", ")}
+												</h4>
+												<h4 className="text-[15px]">
+													Servicios extra: {option.extras.join(", ")}
+												</h4>
+												<h4 className="text-sm text-stone-500">
+													Vuelo: {option.flight}
+												</h4>
+											</details>
 										</div>
 										<section className="flex flex-wrap items-center justify-end space-x-3">
 											<h2>Desde:</h2>
