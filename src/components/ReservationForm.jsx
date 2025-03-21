@@ -146,7 +146,7 @@ const ReservationForm = () => {
 						<h2 className="text-xl text-white font-bold p-4 bg-sky-950 sticky top-0">
 							DESTINOS DISPONIBLES
 						</h2>
-						<div className="p-4 space-y-4">
+						<div className="p-4 space-y-4 teachers">
 							{options.length > 0 ? (
 								options.map((option, index) => (
 									<div
@@ -163,10 +163,7 @@ const ReservationForm = () => {
 										<p className="text-sm text-gray-600">
 											Hospedaje: {option.hoteles.join(", ")}
 										</p>
-										<details className="mt-2">
-											<summary className="text-sm text-gray-600 cursor-pointer">
-												Más información
-											</summary>
+										<div className="hidden sm:flex flex-col">
 											<p className="text-sm text-gray-600">
 												Actividades: {option.actividades.join(", ")}
 											</p>
@@ -176,11 +173,27 @@ const ReservationForm = () => {
 											<p className="text-sm text-gray-600">
 												Vuelo: {option.flight}
 											</p>
-										</details>
-										<div className="flex justify-between items-center mt-4">
-											<div>
+										</div>
+										<div className="sm:hidden flex">
+											<details>
+												<summary className="text-sm text-gray-600 cursor-pointer">
+													Más información
+												</summary>
+												<p className="text-sm text-gray-600">
+													Actividades: {option.actividades.join(", ")}
+												</p>
+												<p className="text-sm text-gray-600">
+													Servicios extra: {option.extras.join(", ")}
+												</p>
+												<p className="text-sm text-gray-600">
+													Vuelo: {option.flight}
+												</p>
+											</details>
+										</div>
+										<div className="flex justify-end items-center mt-4 gap-4">
+											<div className="flex flex-col text-right space-y-[-5px]">
 												<p className="text-sm text-gray-500">
-													Desde: {option.costUSD}USD
+													{option.costUSD}USD
 												</p>
 												<p className="font-semibold text-lg">
 													{option.costMXN}MXN
