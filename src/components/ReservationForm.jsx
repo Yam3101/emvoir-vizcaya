@@ -131,8 +131,8 @@ const ReservationForm = () => {
 			)}
 
 			{showModal && (
-				<div className="fixed inset-0 bg-black/85 flex items-center justify-center p-4">
-					<div className="bg-white rounded-md shadow-lg md:w-3/5 max-h-[80vh] overflow-y-auto">
+				<div className="fixed inset-0 bg-black/85 flex items-center justify-center p-4 opacity-animated">
+					<div className="bg-white rounded-md shadow-lg md:w-3/5 max-h-[80vh] overflow-y-auto opacity-animated-1">
 						<h2 className="text-xl text-white font-bold p-6 bg-sky-950 sticky top-0">
 							DESTINOS DISPONIBLES
 						</h2>
@@ -144,25 +144,49 @@ const ReservationForm = () => {
 										key={index}
 										className="border-2 border-stone-300 rounded-lg p-4"
 									>
-										<h3 className="font-bold text-2xl dmsans">
-											{option.destination}, {option.country}
-										</h3>
-										<h4 className="text-[15px]">
-											Tours y visitas en {option.tours.join(", ")}
-										</h4>
-										<h4 className="text-[15px]">
-											Actividades: {option.actividades.join(", ")}
-										</h4>
-										<h4 className="text-[15px]">
-											Hospedaje: {option.hoteles.join(", ")}
-										</h4>
-										<h4 className="text-[15px]">
-											Servicios extra: {option.extras.join(", ")}
-										</h4>
-										<h4 className="text-sm text-stone-500">
-											Vuelo: {option.flight}
-										</h4>
+										<div className="sm:flex hidden flex-col">
+											<h3 className="font-bold text-2xl dmsans">
+												{option.destination}, {option.country}
+											</h3>
+											<h4 className="text-[15px]">
+												Tours y visitas en {option.tours.join(", ")}
+											</h4>
+											<h4 className="text-[15px]">
+												Hospedaje: {option.hoteles.join(", ")}
+											</h4>
+											<h4 className="text-[15px]">
+												Actividades: {option.actividades.join(", ")}
+											</h4>
+											<h4 className="text-[15px]">
+												Servicios extra: {option.extras.join(", ")}
+											</h4>
+											<h4 className="text-sm text-stone-500">
+												Vuelo: {option.flight}
+											</h4>
+										</div>
+										{/* Section for phone user */}
+										<div className="flex flex-col sm:hidden">
+											<h3 className="font-bold text-2xl dmsans">
+												{option.destination}, {option.country}
+											</h3>
+											<h4 className="text-[15px]">
+												Tours y visitas en {option.tours.join(", ")}
+											</h4>
+											<h4 className="text-[15px]">
+												Actividades: {option.actividades.join(", ")}
+											</h4>
+											<h4 className="text-[15px]">
+												Hospedaje: {option.hoteles.join(", ")}
+											</h4>
+											<h4 className="text-[15px]">
+												Servicios extra: {option.extras.join(", ")}
+											</h4>
+											<h4 className="text-sm text-stone-500">
+												Vuelo: {option.flight}
+											</h4>
+										</div>
 										<section className="flex flex-wrap items-center justify-end space-x-3">
+											<h2>Desde:</h2>
 											<div className="flex flex-col space-y-[-5px]">
 												<h5 className="text-sm text-right text-sky-950 font-semibold">
 													{option.costUSD}USD
@@ -198,7 +222,7 @@ const ReservationForm = () => {
 
 			{showConfirmationModal && (
 				<div className="fixed inset-0 bg-black/85 flex items-center justify-center p-4">
-					<div className="bg-white p-6 rounded-lg shadow-lg w-full md:w-1/3">
+					<div className="bg-white p-6 rounded-lg shadow-lg w-full md:w-1/3 opacity-animated-1">
 						<h2 className="text-xl font-bold mb-4">Reserva Confirmada</h2>
 						<p>
 							¡Tu reserva para <strong>{confirmedDestination}</strong> ha sido
@@ -206,10 +230,10 @@ const ReservationForm = () => {
 						</p>
 						<button
 							type="button"
-							className="mt-4 bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 duration-200"
+							className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 duration-200"
 							onClick={closeConfirmationModal}
 						>
-							Cerrar
+							Hecho
 						</button>
 					</div>
 				</div>

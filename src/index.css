@@ -19,3 +19,31 @@
 .teachers {
     font-family: 'Teachers';
 }
+
+@keyframes animation-opacity-1 {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes opacity-animated {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.opacity-animated {
+    animation: opacity-animated 0.4s ease-out;
+}
+
+.opacity-animated-1 {
+    animation: animation-opacity-1 0.7s ease-out;
+}
