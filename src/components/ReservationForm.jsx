@@ -132,7 +132,7 @@ const ReservationForm = () => {
 
 			{showModal && (
 				<div className="fixed inset-0 bg-black/85 flex items-center justify-center p-4">
-					<div className="bg-white rounded-md shadow-lg w-full md:w-1/2 max-h-[80vh] overflow-y-auto">
+					<div className="bg-white rounded-md shadow-lg md:w-3/5 max-h-[80vh] overflow-y-auto">
 						<h2 className="text-xl text-white font-bold p-6 bg-sky-950 sticky top-0">
 							DESTINOS DISPONIBLES
 						</h2>
@@ -144,14 +144,24 @@ const ReservationForm = () => {
 										key={index}
 										className="border-2 border-stone-300 rounded-lg p-4"
 									>
-										<h3 className="font-semibold text-2xl">
+										<h3 className="font-bold text-2xl dmsans">
 											{option.destination}, {option.country}
 										</h3>
-										<h4>Tours: {option.tours.join(", ")}</h4>
-										<h4>Vuelo: {option.flight}</h4>
-										<h4>Hotel: {option.hotel}</h4>
-										<h4>Actividades: {option.actividades.join(", ")}</h4>
-										<h4>Extras: {option.extras.join(", ")}</h4>
+										<h4 className="text-[15px]">
+											Tours y visitas en {option.tours.join(", ")}
+										</h4>
+										<h4 className="text-[15px]">
+											Actividades: {option.actividades.join(", ")}
+										</h4>
+										<h4 className="text-[15px]">
+											Hospedaje: {option.hoteles.join(", ")}
+										</h4>
+										<h4 className="text-[15px]">
+											Servicios extra: {option.extras.join(", ")}
+										</h4>
+										<h4 className="text-sm text-stone-500">
+											Vuelo: {option.flight}
+										</h4>
 										<section className="flex flex-wrap items-center justify-end space-x-3">
 											<div className="flex flex-col space-y-[-5px]">
 												<h5 className="text-sm text-right text-sky-950 font-semibold">
