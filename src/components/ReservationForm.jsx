@@ -142,7 +142,7 @@ const ReservationForm = () => {
 			{/* Modal de opciones de viaje */}
 			{showModal && (
 				<div className="fixed inset-0 bg-black/85 flex items-center justify-center p-4">
-					<div className="bg-white rounded-md shadow-lg w-full max-w-4xl max-h-[80vh] overflow-y-auto">
+					<div className="bg-stone-200 rounded-md shadow-lg w-full max-w-4xl max-h-[80vh] overflow-y-auto">
 						<h2 className="text-xl text-white font-bold p-4 bg-sky-950 sticky top-0">
 							DESTINOS DISPONIBLES
 						</h2>
@@ -152,7 +152,7 @@ const ReservationForm = () => {
 									<div
 										// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 										key={index}
-										className="border-2 border-stone-300 rounded-lg p-4"
+										className="rounded-lg bg-white p-4"
 									>
 										<h3 className="font-bold text-xl">
 											{option.destination}, {option.country}
@@ -201,10 +201,10 @@ const ReservationForm = () => {
 											</div>
 											<button
 												type="button"
-												className="bg-sky-700 text-white py-1 px-3 rounded-sm hover:bg-sky-900 duration-200"
+												className="bg-sky-700 text-white py-2 px-3 rounded-sm hover:bg-sky-900 duration-200"
 												onClick={() => handleConfirm(option)}
 											>
-												Reservar
+												Reservar aquí
 											</button>
 										</div>
 									</div>
@@ -217,7 +217,7 @@ const ReservationForm = () => {
 						</div>
 						<button
 							type="button"
-							className="w-full bg-rose-600 text-white py-2 px-4 rounded-b-md hover:bg-rose-700 duration-200"
+							className="bg-rose-600 text-white py-2 px-4 m-4 rounded-md hover:bg-rose-700 duration-200"
 							onClick={() => setShowModal(false)}
 						>
 							Cancelar

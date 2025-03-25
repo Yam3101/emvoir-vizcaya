@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+button {
+    font-family: 'DM Sans';
+}
+
 @font-face {
   font-family: 'DM Sans';
   font-display: swap;
