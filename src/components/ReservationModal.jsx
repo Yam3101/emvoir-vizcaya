@@ -14,7 +14,7 @@ const ReservationModal = ({ hotel, closeModal }) => {
 				<h2 className="text-2xl font-bold mb-4">Reservar en {hotel.name}</h2>
 				<p className="text-gray-600 mb-2">{hotel.location}</p>
 				<p className="font-semibold">
-					Precio: MXN {hotel.price_mxn} / USD {hotel.price_usd}
+					Precio: MXN {hotel.priceMXN} / USD {hotel.priceUSD}
 				</p>
 
 				<form className="mt-4" onSubmit={handleConfirmReservation}>
