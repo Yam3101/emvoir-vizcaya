@@ -6,7 +6,7 @@ const HotelCard = () => {
 	const [selectedHotel, setSelectedHotel] = useState(null);
 
 	return (
-		<div className="p-6">
+		<section className="p-6">
 			<h2 className="text-3xl font-bold text-center mb-6">
 				Hoteles Disponibles
 			</h2>
@@ -14,27 +14,30 @@ const HotelCard = () => {
 				{hotels.map((hotel) => (
 					<div
 						key={hotel.id}
-						className="bg-white shadow-lg rounded-lg overflow-hidden"
+						className="bg-slate-900 text-white shadow-lg rounded-lg overflow-hidden flex flex-col justify-between"
 					>
 						<img
 							src={`/images/${hotel.image}`}
 							alt={hotel.name}
 							className="w-full h-48 object-cover"
 						/>
-						<div className="p-4">
+						<div className="px-4 pb-6">
 							<h3 className="text-xl font-semibold">{hotel.name}</h3>
-							<p className="text-gray-600">{hotel.location}</p>
-							<p className="text-gray-800 font-bold">
-								MXN {hotel.priceMXN} / USD {hotel.priceUSD}
-							</p>
+							<p className="text-gray-400">{hotel.location}</p>
 							<p className="text-gray-500">{hotel.description}</p>
-							{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
-							<button
-								className="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600"
-								onClick={() => setSelectedHotel(hotel)}
-							>
-								Reservar
-							</button>
+							<div className="flex flex-wrap items-center justify-end">
+								<p className="text-gray-200 font-bold flex flex-col space-y-[-7px] text-right">
+									<h4 className="text-sm text-gray-400">{hotel.priceUSD}USD</h4>
+									<h4 className="text-lg">{hotel.priceMXN}MXN</h4>
+								</p>
+								{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
+								<button
+									className="mt-4 w-52 bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600"
+									onClick={() => setSelectedHotel(hotel)}
+								>
+									Reservar
+								</button>
+							</div>
 						</div>
 					</div>
 				))}
@@ -46,7 +49,7 @@ const HotelCard = () => {
 					closeModal={() => setSelectedHotel(null)}
 				/>
 			)}
-		</div>
+		</section>
 	);
 };
 

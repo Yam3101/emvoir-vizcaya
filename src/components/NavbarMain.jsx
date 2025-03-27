@@ -15,21 +15,15 @@ const NavbarMain = () => {
 						VOIR
 					</h1>
 				</Link>
-				<section className="hidden sm:flex gap-2">
-					<Link to="/" className="hover:text-stone-200">
-						HOTELES
+				<section className="hidden sm:flex space-x-3">
+					<Link to="/" className="hover:text-slate-300 tracking-tight">
+						Rentar un auto
 					</Link>
-					<Link to="/" className="hover:text-stone-200">
-						OFERTAS
+					<Link to="/" className="hover:text-slate-300 tracking-tight">
+						Acerca de Nosotros
 					</Link>
-					<Link to="/" className="hover:text-stone-200">
-						RENTA DE AUTOS
-					</Link>
-					<Link to="/" className="hover:text-stone-200">
-						TOURS
-					</Link>
-					<Link to="/" className="hover:text-stone-200">
-						CONTACTANOS
+					<Link to="/" className="hover:text-slate-300 tracking-tight">
+						Contactanos
 					</Link>
 				</section>
 				<button
@@ -40,7 +34,7 @@ const NavbarMain = () => {
 					☰
 				</button>
 				{isOpen && (
-					<section className="bg-black/90 h-screen w-screen fixed top-0 left-0 flex justify-center items-start">
+					<section className="bg-black h-screen w-screen fixed top-0 left-0 flex justify-center items-start">
 						<button
 							type="button"
 							onClick={() => setIsOpen(!isOpen)}
@@ -53,26 +47,13 @@ const NavbarMain = () => {
 								to="/"
 								className="text-center py-4 flex justify-center items-center w-full hover:bg-stone-950"
 							>
-								HOTELES
-							</Link>
-
-							<Link
-								to="/"
-								className="text-center py-4 flex justify-center items-center w-full hover:bg-stone-950"
-							>
-								OFERTAS
-							</Link>
-							<Link
-								to="/"
-								className="text-center py-4 flex justify-center items-center w-full hover:bg-stone-950"
-							>
 								RENTA DE AUTOS
 							</Link>
 							<Link
 								to="/"
 								className="text-center py-4 flex justify-center items-center w-full hover:bg-stone-950"
 							>
-								TOURS
+								ACERCA DE NOSOTROS
 							</Link>
 							<Link
 								to="/"
