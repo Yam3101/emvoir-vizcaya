@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import travelOptions from "../components/TravelOptions.json";
+import travelOptions from "../components/json/TravelOptions.json";
 
 const ReservationForm = () => {
 	const [arrival, setArrival] = useState("");

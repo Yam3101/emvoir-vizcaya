@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"name": "Hotel Paraíso Maya",
+		"location": "Cancún, México",
+		"priceMXN": 2500,
+		"priceUSD": 150,
+		"image": "https://via.placeholder.com/300",
+		"description": "Un hermoso hotel con vista al mar y servicio todo incluido."
+	},
+	{
+		"id": 2,
+		"name": "Resort Playa Sol",
+		"location": "Playa del Carmen, México",
+		"priceMXN": 3200,
+		"priceUSD": 190,
+		"image": "https://via.placeholder.com/300",
+		"description": "Lujo y comodidad con acceso directo a la playa."
+	},
+	{
+		"id": 3,
+		"name": "Montaña Esmeralda Lodge",
+		"location": "Valle de Bravo, México",
+		"priceMXN": 1800,
+		"priceUSD": 110,
+		"image": "https://via.placeholder.com/300",
+		"description": "Un retiro en las montañas con cabañas acogedoras y vistas impresionantes."
+	},
+	{
+		"id": 4,
+		"name": "Gran Hotel Metropolitano",
+		"location": "Ciudad de México, México",
+		"priceMXN": 4200,
+		"priceUSD": 250,
+		"image": "https://via.placeholder.com/300",
+		"description": "Lujo y comodidad en el corazón de la ciudad con restaurantes gourmet."
+	},
+	{
+		"id": 5,
+		"name": "EcoResort Selva Viva",
+		"location": "Tulum, México",
+		"priceMXN": 2900,
+		"priceUSD": 170,
+		"image": "https://via.placeholder.com/300",
+		"description": "Un hotel ecológico rodeado de naturaleza y playas vírgenes."
+	},
+	{
+		"id": 6,
+		"name": "Hacienda Colonial Real",
+		"location": "Mérida, México",
+		"priceMXN": 2300,
+		"priceUSD": 135,
+		"image": "https://via.placeholder.com/300",
+		"description": "Una hermosa hacienda con historia, arquitectura colonial y jardines."
+	}
+]
