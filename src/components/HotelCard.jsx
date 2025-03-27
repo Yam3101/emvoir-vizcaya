@@ -25,7 +25,7 @@ const HotelCard = () => {
 							<h3 className="text-xl font-semibold">{hotel.name}</h3>
 							<p className="text-gray-600">{hotel.location}</p>
 							<p className="text-gray-800 font-bold">
-								MXN {hotel.price_mxn} / USD {hotel.price_usd}
+								MXN {hotel.priceMXN} / USD {hotel.priceUSD}
 							</p>
 							<p className="text-gray-500">{hotel.description}</p>
 							{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
