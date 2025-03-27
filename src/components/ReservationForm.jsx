@@ -51,7 +51,7 @@ const ReservationForm = () => {
 	};
 
 	return (
-		<div className="py-4">
+		<div className="py-4 md:h-96 flex flex-col justify-end">
 			{/* Formulario de reservas */}
 			<div className="bg-white py-6 px-8 md:px-8 rounded-lg shadow-md flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0 items-end">
 				{/* Selección de país */}

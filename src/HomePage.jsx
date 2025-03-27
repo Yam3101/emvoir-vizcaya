@@ -6,7 +6,7 @@ const HomePage = () => {
 	return (
 		<main className="w-screen h-screen overflow-x-hidden flex flex-col">
 			<NavbarMain />
-			<section className="flex flex-col items-center justify-end bg-stone-950 h-2/3">
+			<section className="flex flex-col items-center justify-end bg-stone-950">
 				<ReservationForm />
 			</section>
 			<HotelCard />
