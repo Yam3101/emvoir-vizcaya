@@ -2,1285 +2,841 @@
 	{
 		"destination": "Ciudad de México",
 		"country": "México",
-		"costMXN": "$16,000",
-		"costUSD": "$800",
-		"flight": "MX101",
-		"tours": ["Zócalo", "Museo Frida Kahlo", "Teotihuacán"],
-		"hoteles": [
-			"Hotel Gran Ciudad de México",
-			"Hotel Histórico Central",
-			"Boutique Hotel Zócalo"
-		],
-		"actividades": [
-			"Tour gastronómico",
-			"Visita a Xochimilco",
-			"Recorrido en bicicleta"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico privado",
-			"Desayuno incluido"
-		]
-	},
-	{
-		"destination": "Cancún",
-		"country": "México",
-		"costMXN": "$20,000",
-		"costUSD": "$1,000",
-		"flight": "MX102",
-		"tours": ["Playa Delfines", "Chichén Itzá", "Xcaret"],
-		"hoteles": [
-			"Resort Cancún Paradise",
-			"Hotel Playa Delfines",
-			"Boutique Hotel Xcaret"
-		],
-		"actividades": [
-			"Snorkeling en arrecifes",
-			"Tour a Isla Mujeres",
-			"Cena en crucero"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Acceso a parques temáticos",
-			"Desayuno buffet"
-		]
+		"costMXN": "$8,500",
+		"costUSD": "$425",
+		"airline": "Aeroméxico",
+		"flightNumber": "AM700",
+		"departureTime": "08:00",
+		"arrivalTime": "10:30",
+		"duration": "2h 30m",
+		"stops": 0,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "Guadalajara",
 		"country": "México",
-		"costMXN": "$14,000",
-		"costUSD": "$700",
-		"flight": "MX103",
-		"tours": ["Catedral de Guadalajara", "Tlaquepaque", "Lago de Chapala"],
-		"hoteles": [
-			"Hotel Guadalajara Central",
-			"Boutique Hotel Tlaquepaque",
-			"Resort Lago de Chapala"
-		],
-		"actividades": [
-			"Tour de tequila",
-			"Visita a mercados locales",
-			"Paseo en lancha"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno tradicional"
-		]
+		"costMXN": "$7,200",
+		"costUSD": "$360",
+		"airline": "Viva Aerobus",
+		"flightNumber": "VB456",
+		"departureTime": "11:30",
+		"arrivalTime": "13:00",
+		"duration": "1h 30m",
+		"stops": 0,
+		"baggage": "Equipaje de mano (8kg)",
+		"travelClass": "Económica"
 	},
 	{
-		"destination": "Oaxaca",
+		"destination": "Monterrey",
 		"country": "México",
-		"costMXN": "$15,000",
-		"costUSD": "$750",
-		"flight": "MX104",
-		"tours": ["Monte Albán", "Hierve el Agua", "Centro Histórico"],
-		"hoteles": [
-			"Hotel Oaxaca Colonial",
-			"Boutique Hotel Hierve el Agua",
-			"Resort Monte Albán"
-		],
-		"actividades": [
-			"Tour de mezcal",
-			"Clases de cocina tradicional",
-			"Visita a talleres artesanales"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno oaxaqueño"]
+		"costMXN": "$6,800",
+		"costUSD": "$340",
+		"airline": "Volaris",
+		"flightNumber": "Y4123",
+		"departureTime": "09:15",
+		"arrivalTime": "11:05",
+		"duration": "1h 50m",
+		"stops": 0,
+		"baggage": "Equipaje de mano (10kg)",
+		"travelClass": "Económica"
 	},
 	{
-		"destination": "Puebla",
+		"destination": "Tijuana",
 		"country": "México",
-		"costMXN": "$13,000",
-		"costUSD": "$650",
-		"flight": "MX105",
-		"tours": ["Catedral de Puebla", "Zócalo", "Cholula"],
-		"hoteles": [
-			"Hotel Puebla Central",
-			"Boutique Hotel Cholula",
-			"Resort Zócalo"
-		],
-		"actividades": [
-			"Tour de mole poblano",
-			"Visita a talavera",
-			"Recorrido histórico"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno poblano"]
+		"costMXN": "$9,100",
+		"costUSD": "$455",
+		"airline": "Calafia Airlines",
+		"flightNumber": "CF123",
+		"departureTime": "14:20",
+		"arrivalTime": "16:40",
+		"duration": "2h 20m",
+		"stops": 0,
+		"baggage": "1 maleta de 20kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "Puerto Vallarta",
 		"country": "México",
-		"costMXN": "$18,000",
-		"costUSD": "$900",
-		"flight": "MX106",
-		"tours": ["Malecón", "Islas Marietas", "Playa Los Muertos"],
-		"hoteles": [
-			"Resort Puerto Vallarta",
-			"Hotel Playa Los Muertos",
-			"Boutique Hotel Malecón"
-		],
-		"actividades": [
-			"Paseo en catamarán",
-			"Avistamiento de ballenas",
-			"Tour de comida callejera"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Acceso a playas privadas",
-			"Desayuno incluido"
-		]
+		"costMXN": "$10,500",
+		"costUSD": "$525",
+		"airline": "Aeroméxico",
+		"flightNumber": "AM345",
+		"departureTime": "07:45",
+		"arrivalTime": "10:15",
+		"duration": "2h 30m",
+		"stops": 0,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
+	},
+	{
+		"destination": "Mérida",
+		"country": "México",
+		"costMXN": "$8,900",
+		"costUSD": "$445",
+		"airline": "Viva Aerobus",
+		"flightNumber": "VB678",
+		"departureTime": "13:10",
+		"arrivalTime": "15:25",
+		"duration": "2h 15m",
+		"stops": 0,
+		"baggage": "Equipaje de mano (8kg)",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "Nueva York",
 		"country": "Estados Unidos",
-		"costMXN": "$30,000",
-		"costUSD": "$1,500",
-		"flight": "AA456",
-		"tours": ["Estatua de la Libertad", "Central Park", "Times Square"],
-		"hoteles": [
-			"Hotel Manhattan Central",
-			"Boutique Hotel Times Square",
-			"Resort Central Park"
-		],
-		"actividades": [
-			"Tour en helicóptero",
-			"Visita a Broadway",
-			"Recorrido en barco por el Hudson"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno americano"]
-	},
-	{
-		"destination": "Los Ángeles",
-		"country": "Estados Unidos",
-		"costMXN": "$28,000",
-		"costUSD": "$1,400",
-		"flight": "AA457",
-		"tours": ["Hollywood Sign", "Santa Mónica", "Universal Studios"],
-		"hoteles": [
-			"Hotel Hollywood Central",
-			"Boutique Hotel Santa Mónica",
-			"Resort Universal Studios"
-		],
-		"actividades": [
-			"Tour de estudios de cine",
-			"Paseo en bicicleta por Venice Beach",
-			"Visita a museos de arte"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Acceso a parques temáticos",
-			"Desayuno californiano"
-		]
-	},
-	{
-		"destination": "Miami",
-		"country": "Estados Unidos",
-		"costMXN": "$26,000",
-		"costUSD": "$1,300",
-		"flight": "AA458",
-		"tours": ["South Beach", "Everglades", "Little Havana"],
-		"hoteles": [
-			"Hotel Miami Beach",
-			"Boutique Hotel Little Havana",
-			"Resort Everglades"
-		],
-		"actividades": [
-			"Tour en airboat por los Everglades",
-			"Visita a Wynwood Walls",
-			"Cena en crucero"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno cubano"]
-	},
-	{
-		"destination": "Las Vegas",
-		"country": "Estados Unidos",
-		"costMXN": "$25,000",
-		"costUSD": "$1,250",
-		"flight": "AA459",
-		"tours": ["Strip de Las Vegas", "Gran Cañón", "Fremont Street"],
-		"hoteles": [
-			"Hotel Las Vegas Strip",
-			"Boutique Hotel Fremont",
-			"Resort Gran Cañón"
-		],
-		"actividades": [
-			"Tour en helicóptero al Gran Cañón",
-			"Espectáculo de luces",
-			"Visita a casinos"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Acceso a espectáculos",
-			"Desayuno buffet"
-		]
+		"costMXN": "$15,200",
+		"costUSD": "$760",
+		"airline": "Delta",
+		"flightNumber": "DL401",
+		"departureTime": "09:30",
+		"arrivalTime": "15:45",
+		"duration": "5h 15m",
+		"stops": 0,
+		"baggage": "2 maletas de 23kg + equipaje de mano",
+		"travelClass": "Premium"
 	},
 	{
 		"destination": "Chicago",
 		"country": "Estados Unidos",
-		"costMXN": "$24,000",
-		"costUSD": "$1,200",
-		"flight": "AA460",
-		"tours": ["Millennium Park", "Willis Tower", "Navy Pier"],
-		"hoteles": [
-			"Hotel Chicago Central",
-			"Boutique Hotel Navy Pier",
-			"Resort Willis Tower"
-		],
-		"actividades": [
-			"Tour arquitectónico",
-			"Visita al Field Museum",
-			"Paseo en barco por el río Chicago"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno americano"]
+		"costMXN": "$14,800",
+		"costUSD": "$740",
+		"airline": "United",
+		"flightNumber": "UA789",
+		"departureTime": "06:45",
+		"arrivalTime": "12:30",
+		"duration": "4h 45m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
+	},
+	{
+		"destination": "Miami",
+		"country": "Estados Unidos",
+		"costMXN": "$13,500",
+		"costUSD": "$675",
+		"airline": "American Airlines",
+		"flightNumber": "AA456",
+		"departureTime": "10:15",
+		"arrivalTime": "15:00",
+		"duration": "3h 45m",
+		"stops": 0,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
+	},
+	{
+		"destination": "Houston",
+		"country": "Estados Unidos",
+		"costMXN": "$12,900",
+		"costUSD": "$645",
+		"airline": "United",
+		"flightNumber": "UA234",
+		"departureTime": "08:30",
+		"arrivalTime": "12:15",
+		"duration": "3h 45m",
+		"stops": 0,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "San Francisco",
 		"country": "Estados Unidos",
-		"costMXN": "$27,000",
-		"costUSD": "$1,350",
-		"flight": "AA461",
-		"tours": ["Golden Gate", "Alcatraz", "Puente de Oakland"],
-		"hoteles": [
-			"Hotel San Francisco Bay",
-			"Boutique Hotel Golden Gate",
-			"Resort Alcatraz"
-		],
-		"actividades": [
-			"Tour en ferry a Alcatraz",
-			"Paseo en bicicleta por el Golden Gate",
-			"Visita a Chinatown"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno californiano"
-		]
+		"costMXN": "$16,700",
+		"costUSD": "$835",
+		"airline": "Alaska Airlines",
+		"flightNumber": "AS567",
+		"departureTime": "07:00",
+		"arrivalTime": "11:30",
+		"duration": "4h 30m",
+		"stops": 0,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
+	},
+	{
+		"destination": "Las Vegas",
+		"country": "Estados Unidos",
+		"costMXN": "$14,200",
+		"costUSD": "$710",
+		"airline": "Spirit",
+		"flightNumber": "NK345",
+		"departureTime": "15:45",
+		"arrivalTime": "19:30",
+		"duration": "3h 45m",
+		"stops": 0,
+		"baggage": "Equipaje de mano (10kg)",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "Toronto",
 		"country": "Canadá",
-		"costMXN": "$22,000",
-		"costUSD": "$1,100",
-		"flight": "AC201",
-		"tours": ["CN Tower", "Niagara Falls", "Distillery District"],
-		"hoteles": [
-			"Hotel Toronto Central",
-			"Boutique Hotel Distillery",
-			"Resort Niagara Falls"
-		],
-		"actividades": [
-			"Tour en barco a las cataratas",
-			"Visita al acuario Ripley's",
-			"Recorrido por el Distillery District"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno canadiense"
-		]
+		"costMXN": "$18,300",
+		"costUSD": "$915",
+		"airline": "Air Canada",
+		"flightNumber": "AC997",
+		"departureTime": "13:20",
+		"arrivalTime": "19:45",
+		"duration": "4h 25m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "Vancouver",
 		"country": "Canadá",
-		"costMXN": "$24,000",
-		"costUSD": "$1,200",
-		"flight": "AC202",
-		"tours": ["Stanley Park", "Granville Island", "Capilano Suspension Bridge"],
-		"hoteles": [
-			"Hotel Vancouver Central",
-			"Boutique Hotel Granville",
-			"Resort Stanley Park"
-		],
-		"actividades": [
-			"Tour en bicicleta por Stanley Park",
-			"Visita al mercado de Granville Island",
-			"Paseo por el puente colgante"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno canadiense"
-		]
+		"costMXN": "$19,800",
+		"costUSD": "$990",
+		"airline": "WestJet",
+		"flightNumber": "WS456",
+		"departureTime": "09:15",
+		"arrivalTime": "15:30",
+		"duration": "5h 15m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "Montreal",
 		"country": "Canadá",
-		"costMXN": "$20,000",
-		"costUSD": "$1,000",
-		"flight": "AC203",
-		"tours": ["Basílica de Notre-Dame", "Montreal Old Port", "Mount Royal"],
-		"hoteles": [
-			"Hotel Montreal Central",
-			"Boutique Hotel Old Port",
-			"Resort Mount Royal"
-		],
-		"actividades": [
-			"Tour histórico por Old Montreal",
-			"Visita al Jardín Botánico",
-			"Paseo en bicicleta por Mount Royal"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno quebecois"]
+		"costMXN": "$20,500",
+		"costUSD": "$1,025",
+		"airline": "Air Canada",
+		"flightNumber": "AC789",
+		"departureTime": "11:30",
+		"arrivalTime": "18:45",
+		"duration": "6h 15m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "Calgary",
 		"country": "Canadá",
-		"costMXN": "$21,000",
-		"costUSD": "$1,050",
-		"flight": "AC204",
-		"tours": ["Calgary Tower", "Banff National Park", "Heritage Park"],
-		"hoteles": [
-			"Hotel Calgary Central",
-			"Boutique Hotel Banff",
-			"Resort Heritage Park"
-		],
-		"actividades": [
-			"Tour por Banff National Park",
-			"Visita al Calgary Zoo",
-			"Paseo en teleférico"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno canadiense"
-		]
-	},
-	{
-		"destination": "Quebec",
-		"country": "Canadá",
-		"costMXN": "$23,000",
-		"costUSD": "$1,150",
-		"flight": "AC205",
-		"tours": ["Old Quebec", "Montmorency Falls", "Plains of Abraham"],
-		"hoteles": [
-			"Hotel Quebec Central",
-			"Boutique Hotel Old Quebec",
-			"Resort Montmorency"
-		],
-		"actividades": [
-			"Tour histórico por Old Quebec",
-			"Visita a las cataratas Montmorency",
-			"Paseo en bicicleta por las llanuras"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno quebecois"]
+		"costMXN": "$17,900",
+		"costUSD": "$895",
+		"airline": "WestJet",
+		"flightNumber": "WS123",
+		"departureTime": "14:00",
+		"arrivalTime": "19:15",
+		"duration": "4h 15m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "Ottawa",
 		"country": "Canadá",
-		"costMXN": "$19,000",
-		"costUSD": "$950",
-		"flight": "AC206",
-		"tours": ["Parliament Hill", "Rideau Canal", "National Gallery"],
-		"hoteles": [
-			"Hotel Ottawa Central",
-			"Boutique Hotel Rideau",
-			"Resort Parliament Hill"
-		],
-		"actividades": [
-			"Tour por Parliament Hill",
-			"Paseo en barco por el canal Rideau",
-			"Visita a la Galería Nacional"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno canadiense"
-		]
+		"costMXN": "$19,200",
+		"costUSD": "$960",
+		"airline": "Air Canada",
+		"flightNumber": "AC456",
+		"departureTime": "08:45",
+		"arrivalTime": "15:30",
+		"duration": "5h 45m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
+	},
+	{
+		"destination": "Quebec",
+		"country": "Canadá",
+		"costMXN": "$20,100",
+		"costUSD": "$1,005",
+		"airline": "Air Transat",
+		"flightNumber": "TS789",
+		"departureTime": "10:30",
+		"arrivalTime": "17:45",
+		"duration": "6h 15m",
+		"stops": 1,
+		"baggage": "1 maleta de 20kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "París",
 		"country": "Francia",
-		"costMXN": "$24,000",
-		"costUSD": "$1,200",
-		"flight": "AF123",
-		"tours": ["Tour Eiffel", "Louvre", "Catedral de Notre-Dame"],
-		"hoteles": [
-			"Hotel París Central",
-			"Boutique Hotel Eiffel",
-			"Resort Louvre"
-		],
-		"actividades": [
-			"Tour en barco por el Sena",
-			"Visita al Museo del Louvre",
-			"Paseo en bicicleta por Montmartre"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno francés"]
+		"costMXN": "$32,500",
+		"costUSD": "$1,625",
+		"airline": "Air France",
+		"flightNumber": "AF178",
+		"departureTime": "22:15",
+		"arrivalTime": "14:30+1",
+		"duration": "11h 15m",
+		"stops": 0,
+		"baggage": "2 maletas de 23kg + equipaje de mano",
+		"travelClass": "Negocios"
 	},
 	{
 		"destination": "Niza",
 		"country": "Francia",
-		"costMXN": "$22,000",
-		"costUSD": "$1,100",
-		"flight": "AF124",
-		"tours": ["Promenade des Anglais", "Vieille Ville", "Castle Hill"],
-		"hoteles": [
-			"Hotel Niza Central",
-			"Boutique Hotel Promenade",
-			"Resort Vieille Ville"
-		],
-		"actividades": [
-			"Tour en bicicleta por la costa",
-			"Visita al mercado de flores",
-			"Paseo en barco por la bahía"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno provenzal"]
-	},
-	{
-		"destination": "Burdeos",
-		"country": "Francia",
-		"costMXN": "$20,000",
-		"costUSD": "$1,000",
-		"flight": "AF125",
-		"tours": ["Place de la Bourse", "Cité du Vin", "Basilique Saint-Michel"],
-		"hoteles": [
-			"Hotel Burdeos Central",
-			"Boutique Hotel Cité du Vin",
-			"Resort Place de la Bourse"
-		],
-		"actividades": [
-			"Tour de vinos",
-			"Visita a la Cité du Vin",
-			"Paseo en bicicleta por el casco antiguo"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno francés"]
+		"costMXN": "$34,800",
+		"costUSD": "$1,740",
+		"airline": "Air France",
+		"flightNumber": "AF345",
+		"departureTime": "21:30",
+		"arrivalTime": "16:45+1",
+		"duration": "12h 15m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
 	},
 	{
 		"destination": "Lyon",
 		"country": "Francia",
-		"costMXN": "$19,000",
-		"costUSD": "$950",
-		"flight": "AF126",
-		"tours": [
-			"Vieux Lyon",
-			"Basilique Notre-Dame de Fourvière",
-			"Parc de la Tête d'Or"
-		],
-		"hoteles": [
-			"Hotel Lyon Central",
-			"Boutique Hotel Vieux Lyon",
-			"Resort Fourvière"
-		],
-		"actividades": [
-			"Tour gastronómico",
-			"Visita a la basílica",
-			"Paseo en bicicleta por el parque"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno francés"]
+		"costMXN": "$33,200",
+		"costUSD": "$1,660",
+		"airline": "KLM",
+		"flightNumber": "KL789",
+		"departureTime": "20:45",
+		"arrivalTime": "15:30+1",
+		"duration": "11h 45m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
 	},
 	{
 		"destination": "Marsella",
 		"country": "Francia",
-		"costMXN": "$21,000",
-		"costUSD": "$1,050",
-		"flight": "AF127",
-		"tours": ["Vieux Port", "Basilique Notre-Dame de la Garde", "Calanques"],
-		"hoteles": [
-			"Hotel Marsella Central",
-			"Boutique Hotel Vieux Port",
-			"Resort Calanques"
-		],
-		"actividades": [
-			"Tour en barco por las calanques",
-			"Visita a la basílica",
-			"Paseo en bicicleta por el puerto"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno provenzal"]
+		"costMXN": "$35,100",
+		"costUSD": "$1,755",
+		"airline": "Lufthansa",
+		"flightNumber": "LH456",
+		"departureTime": "19:30",
+		"arrivalTime": "14:15+1",
+		"duration": "11h 45m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
 	},
 	{
-		"destination": "Estrasburgo",
+		"destination": "Burdeos",
 		"country": "Francia",
-		"costMXN": "$18,000",
-		"costUSD": "$900",
-		"flight": "AF128",
-		"tours": ["Catedral de Estrasburgo", "Petite France", "Parlamento Europeo"],
-		"hoteles": [
-			"Hotel Estrasburgo Central",
-			"Boutique Hotel Petite France",
-			"Resort Parlamento"
-		],
-		"actividades": [
-			"Tour en bicicleta por Petite France",
-			"Visita a la catedral",
-			"Paseo en barco por los canales"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno alsaciano"]
+		"costMXN": "$32,900",
+		"costUSD": "$1,645",
+		"airline": "British Airways",
+		"flightNumber": "BA789",
+		"departureTime": "18:15",
+		"arrivalTime": "13:30+1",
+		"duration": "12h 15m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
+	},
+	{
+		"destination": "Toulouse",
+		"country": "Francia",
+		"costMXN": "$33,500",
+		"costUSD": "$1,675",
+		"airline": "Air France",
+		"flightNumber": "AF567",
+		"departureTime": "17:45",
+		"arrivalTime": "12:30+1",
+		"duration": "11h 45m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
 	},
 	{
 		"destination": "Roma",
 		"country": "Italia",
-		"costMXN": "$26,000",
-		"costUSD": "$1,300",
-		"flight": "AZ321",
-		"tours": ["Coliseo", "Fontana di Trevi", "Vaticano"],
-		"hoteles": [
-			"Hotel Roma Central",
-			"Boutique Hotel Coliseo",
-			"Resort Vaticano"
-		],
-		"actividades": [
-			"Tour histórico por el Coliseo",
-			"Visita a los Museos Vaticanos",
-			"Paseo en bicicleta por Trastevere"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno italiano"]
-	},
-	{
-		"destination": "Venecia",
-		"country": "Italia",
-		"costMXN": "$28,000",
-		"costUSD": "$1,400",
-		"flight": "AZ322",
-		"tours": ["Canal Grande", "Piazza San Marco", "Puente de Rialto"],
-		"hoteles": [
-			"Hotel Venecia Central",
-			"Boutique Hotel Piazza San Marco",
-			"Resort Canal Grande"
-		],
-		"actividades": [
-			"Tour en góndola",
-			"Visita al Palacio Ducal",
-			"Paseo en bicicleta por las islas"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno veneciano"]
-	},
-	{
-		"destination": "Florencia",
-		"country": "Italia",
-		"costMXN": "$24,000",
-		"costUSD": "$1,200",
-		"flight": "AZ323",
-		"tours": ["Duomo", "Galería Uffizi", "Ponte Vecchio"],
-		"hoteles": [
-			"Hotel Florencia Central",
-			"Boutique Hotel Duomo",
-			"Resort Uffizi"
-		],
-		"actividades": [
-			"Tour artístico por la Galería Uffizi",
-			"Visita al Duomo",
-			"Paseo en bicicleta por el Ponte Vecchio"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno toscano"]
+		"costMXN": "$29,800",
+		"costUSD": "$1,490",
+		"airline": "Alitalia",
+		"flightNumber": "AZ680",
+		"departureTime": "20:45",
+		"arrivalTime": "15:20+1",
+		"duration": "12h 35m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
 	},
 	{
 		"destination": "Milán",
 		"country": "Italia",
-		"costMXN": "$25,000",
-		"costUSD": "$1,250",
-		"flight": "AZ324",
-		"tours": [
-			"Catedral de Milán",
-			"Teatro La Scala",
-			"Galería Vittorio Emanuele II"
-		],
-		"hoteles": [
-			"Hotel Milán Central",
-			"Boutique Hotel La Scala",
-			"Resort Catedral"
-		],
-		"actividades": [
-			"Tour de moda",
-			"Visita al Teatro La Scala",
-			"Paseo en bicicleta por la galería"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno milanés"]
+		"costMXN": "$30,500",
+		"costUSD": "$1,525",
+		"airline": "ITA Airways",
+		"flightNumber": "AZ345",
+		"departureTime": "21:30",
+		"arrivalTime": "16:15+1",
+		"duration": "12h 45m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
+	},
+	{
+		"destination": "Venecia",
+		"country": "Italia",
+		"costMXN": "$31,200",
+		"costUSD": "$1,560",
+		"airline": "Lufthansa",
+		"flightNumber": "LH789",
+		"departureTime": "19:45",
+		"arrivalTime": "14:30+1",
+		"duration": "11h 45m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
+	},
+	{
+		"destination": "Florencia",
+		"country": "Italia",
+		"costMXN": "$30,800",
+		"costUSD": "$1,540",
+		"airline": "KLM",
+		"flightNumber": "KL456",
+		"departureTime": "18:30",
+		"arrivalTime": "13:15+1",
+		"duration": "11h 45m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
 	},
 	{
 		"destination": "Nápoles",
 		"country": "Italia",
-		"costMXN": "$23,000",
-		"costUSD": "$1,150",
-		"flight": "AZ325",
-		"tours": ["Pompeya", "Monte Vesubio", "Castel dell'Ovo"],
-		"hoteles": [
-			"Hotel Nápoles Central",
-			"Boutique Hotel Pompeya",
-			"Resort Vesubio"
-		],
-		"actividades": [
-			"Tour arqueológico por Pompeya",
-			"Visita al Monte Vesubio",
-			"Paseo en bicicleta por el castillo"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno napolitano"
-		]
+		"costMXN": "$29,500",
+		"costUSD": "$1,475",
+		"airline": "Alitalia",
+		"flightNumber": "AZ234",
+		"departureTime": "17:15",
+		"arrivalTime": "12:00+1",
+		"duration": "11h 45m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
 	},
 	{
 		"destination": "Turín",
 		"country": "Italia",
-		"costMXN": "$22,000",
-		"costUSD": "$1,100",
-		"flight": "AZ326",
-		"tours": ["Museo Egipcio", "Palacio Real de Turín", "Mole Antonelliana"],
-		"hoteles": [
-			"Hotel Turín Central",
-			"Boutique Hotel Palacio Real",
-			"Resort Mole Antonelliana"
-		],
-		"actividades": [
-			"Tour histórico por el Palacio Real",
-			"Visita al Museo Egipcio",
-			"Paseo en bicicleta por la Mole"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno piamontés"]
+		"costMXN": "$30,100",
+		"costUSD": "$1,505",
+		"airline": "Lufthansa",
+		"flightNumber": "LH567",
+		"departureTime": "16:45",
+		"arrivalTime": "11:30+1",
+		"duration": "11h 45m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
 	},
 	{
 		"destination": "Tokio",
 		"country": "Japón",
-		"costMXN": "$40,000",
-		"costUSD": "$2,000",
-		"flight": "JL789",
-		"tours": ["Shibuya Crossing", "Templo Senso-ji", "Monte Fuji"],
-		"hoteles": [
-			"Hotel Tokio Central",
-			"Boutique Hotel Shibuya",
-			"Resort Monte Fuji"
-		],
-		"actividades": [
-			"Tour por Shibuya",
-			"Visita al Templo Senso-ji",
-			"Excursión al Monte Fuji"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno japonés"]
-	},
-	{
-		"destination": "Kioto",
-		"country": "Japón",
-		"costMXN": "$38,000",
-		"costUSD": "$1,900",
-		"flight": "JL790",
-		"tours": ["Fushimi Inari Taisha", "Kinkaku-ji", "Arashiyama"],
-		"hoteles": [
-			"Hotel Kioto Central",
-			"Boutique Hotel Fushimi",
-			"Resort Arashiyama"
-		],
-		"actividades": [
-			"Tour por los templos",
-			"Visita al Kinkaku-ji",
-			"Paseo en bicicleta por Arashiyama"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno tradicional"
-		]
+		"costMXN": "$42,000",
+		"costUSD": "$2,100",
+		"airline": "ANA",
+		"flightNumber": "NH180",
+		"departureTime": "11:30",
+		"arrivalTime": "16:45+1",
+		"duration": "14h 15m",
+		"stops": 0,
+		"baggage": "2 maletas de 23kg + equipaje de mano",
+		"travelClass": "Primera Clase"
 	},
 	{
 		"destination": "Osaka",
 		"country": "Japón",
-		"costMXN": "$36,000",
-		"costUSD": "$1,800",
-		"flight": "JL791",
-		"tours": ["Castillo de Osaka", "Dotonbori", "Acuario de Osaka"],
-		"hoteles": [
-			"Hotel Osaka Central",
-			"Boutique Hotel Dotonbori",
-			"Resort Acuario"
-		],
-		"actividades": [
-			"Tour por el castillo",
-			"Visita al acuario",
-			"Paseo en bicicleta por Dotonbori"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno japonés"]
+		"costMXN": "$40,500",
+		"costUSD": "$2,025",
+		"airline": "Japan Airlines",
+		"flightNumber": "JL789",
+		"departureTime": "10:45",
+		"arrivalTime": "15:30+1",
+		"duration": "13h 45m",
+		"stops": 0,
+		"baggage": "2 maletas de 23kg + equipaje de mano",
+		"travelClass": "Primera Clase"
+	},
+	{
+		"destination": "Kioto",
+		"country": "Japón",
+		"costMXN": "$41,200",
+		"costUSD": "$2,060",
+		"airline": "ANA",
+		"flightNumber": "NH456",
+		"departureTime": "12:15",
+		"arrivalTime": "17:00+1",
+		"duration": "13h 45m",
+		"stops": 0,
+		"baggage": "2 maletas de 23kg + equipaje de mano",
+		"travelClass": "Primera Clase"
 	},
 	{
 		"destination": "Hiroshima",
 		"country": "Japón",
-		"costMXN": "$34,000",
-		"costUSD": "$1,700",
-		"flight": "JL792",
-		"tours": ["Memorial de la Paz", "Miyajima", "Castillo de Hiroshima"],
-		"hoteles": [
-			"Hotel Hiroshima Central",
-			"Boutique Hotel Miyajima",
-			"Resort Castillo"
-		],
-		"actividades": [
-			"Tour por el Memorial de la Paz",
-			"Visita a Miyajima",
-			"Paseo en bicicleta por el castillo"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno tradicional"
-		]
+		"costMXN": "$39,800",
+		"costUSD": "$1,990",
+		"airline": "Japan Airlines",
+		"flightNumber": "JL234",
+		"departureTime": "13:30",
+		"arrivalTime": "18:15+1",
+		"duration": "13h 45m",
+		"stops": 0,
+		"baggage": "2 maletas de 23kg + equipaje de mano",
+		"travelClass": "Negocios"
 	},
 	{
 		"destination": "Sapporo",
 		"country": "Japón",
-		"costMXN": "$35,000",
-		"costUSD": "$1,750",
-		"flight": "JL793",
-		"tours": ["Parque Odori", "Monte Moiwa", "Museo de la Cerveza Sapporo"],
-		"hoteles": [
-			"Hotel Sapporo Central",
-			"Boutique Hotel Odori",
-			"Resort Monte Moiwa"
-		],
-		"actividades": [
-			"Tour por el parque Odori",
-			"Visita al museo de la cerveza",
-			"Paseo en teleférico"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno japonés"]
+		"costMXN": "$43,100",
+		"costUSD": "$2,155",
+		"airline": "ANA",
+		"flightNumber": "NH567",
+		"departureTime": "14:45",
+		"arrivalTime": "19:30+1",
+		"duration": "13h 45m",
+		"stops": 0,
+		"baggage": "2 maletas de 23kg + equipaje de mano",
+		"travelClass": "Primera Clase"
 	},
 	{
-		"destination": "Nagoya",
+		"destination": "Fukuoka",
 		"country": "Japón",
-		"costMXN": "$33,000",
-		"costUSD": "$1,650",
-		"flight": "JL794",
-		"tours": [
-			"Castillo de Nagoya",
-			"Museo de Arte Tokugawa",
-			"Jardín Shirotori"
-		],
-		"hoteles": [
-			"Hotel Nagoya Central",
-			"Boutique Hotel Tokugawa",
-			"Resort Shirotori"
-		],
-		"actividades": [
-			"Tour por el castillo",
-			"Visita al museo de arte",
-			"Paseo en bicicleta por el jardín"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno tradicional"
-		]
+		"costMXN": "$40,200",
+		"costUSD": "$2,010",
+		"airline": "Japan Airlines",
+		"flightNumber": "JL345",
+		"departureTime": "15:30",
+		"arrivalTime": "20:15+1",
+		"duration": "13h 45m",
+		"stops": 0,
+		"baggage": "2 maletas de 23kg + equipaje de mano",
+		"travelClass": "Negocios"
 	},
 	{
 		"destination": "Londres",
 		"country": "Reino Unido",
-		"costMXN": "$30,000",
-		"costUSD": "$1,500",
-		"flight": "BA101",
-		"tours": ["Big Ben", "London Eye", "Torre de Londres"],
-		"hoteles": [
-			"Hotel Londres Central",
-			"Boutique Hotel Big Ben",
-			"Resort London Eye"
-		],
-		"actividades": [
-			"Tour en el London Eye",
-			"Visita a la Torre de Londres",
-			"Paseo en bicicleta por el Támesis"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno inglés"]
-	},
-	{
-		"destination": "Edimburgo",
-		"country": "Reino Unido",
-		"costMXN": "$28,000",
-		"costUSD": "$1,400",
-		"flight": "BA102",
-		"tours": ["Castillo de Edimburgo", "Royal Mile", "Arthur's Seat"],
-		"hoteles": [
-			"Hotel Edimburgo Central",
-			"Boutique Hotel Royal Mile",
-			"Resort Arthur's Seat"
-		],
-		"actividades": [
-			"Tour por el castillo",
-			"Visita a la Royal Mile",
-			"Paseo en bicicleta por Arthur's Seat"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno escocés"]
+		"costMXN": "$28,700",
+		"costUSD": "$1,435",
+		"airline": "British Airways",
+		"flightNumber": "BA242",
+		"departureTime": "19:10",
+		"arrivalTime": "12:25+1",
+		"duration": "10h 15m",
+		"stops": 0,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
 	},
 	{
 		"destination": "Manchester",
 		"country": "Reino Unido",
-		"costMXN": "$26,000",
-		"costUSD": "$1,300",
-		"flight": "BA103",
-		"tours": [
-			"Old Trafford",
-			"Manchester Cathedral",
-			"Science and Industry Museum"
-		],
-		"hoteles": [
-			"Hotel Manchester Central",
-			"Boutique Hotel Old Trafford",
-			"Resort Science Museum"
-		],
-		"actividades": [
-			"Tour por Old Trafford",
-			"Visita a la catedral",
-			"Paseo en bicicleta por el museo"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno inglés"]
+		"costMXN": "$27,900",
+		"costUSD": "$1,395",
+		"airline": "Virgin Atlantic",
+		"flightNumber": "VS456",
+		"departureTime": "20:30",
+		"arrivalTime": "13:45+1",
+		"duration": "10h 15m",
+		"stops": 0,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
 	},
 	{
-		"destination": "Liverpool",
+		"destination": "Edimburgo",
 		"country": "Reino Unido",
-		"costMXN": "$25,000",
-		"costUSD": "$1,250",
-		"flight": "BA104",
-		"tours": ["The Beatles Story", "Albert Dock", "Catedral de Liverpool"],
-		"hoteles": [
-			"Hotel Liverpool Central",
-			"Boutique Hotel Albert Dock",
-			"Resort Beatles Story"
-		],
-		"actividades": [
-			"Tour por The Beatles Story",
-			"Visita al Albert Dock",
-			"Paseo en bicicleta por la catedral"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno inglés"]
+		"costMXN": "$29,500",
+		"costUSD": "$1,475",
+		"airline": "British Airways",
+		"flightNumber": "BA789",
+		"departureTime": "18:45",
+		"arrivalTime": "12:00+1",
+		"duration": "10h 15m",
+		"stops": 0,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
 	},
 	{
 		"destination": "Birmingham",
 		"country": "Reino Unido",
-		"costMXN": "$24,000",
-		"costUSD": "$1,200",
-		"flight": "BA105",
-		"tours": [
-			"Museo y Galería de Arte de Birmingham",
-			"Catedral de San Felipe",
-			"Canal de Birmingham"
-		],
-		"hoteles": [
-			"Hotel Birmingham Central",
-			"Boutique Hotel San Felipe",
-			"Resort Canal"
-		],
-		"actividades": [
-			"Tour por el museo",
-			"Visita a la catedral",
-			"Paseo en bicicleta por el canal"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno inglés"]
+		"costMXN": "$27,200",
+		"costUSD": "$1,360",
+		"airline": "KLM",
+		"flightNumber": "KL234",
+		"departureTime": "21:15",
+		"arrivalTime": "14:30+1",
+		"duration": "10h 15m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "Glasgow",
 		"country": "Reino Unido",
-		"costMXN": "$27,000",
-		"costUSD": "$1,350",
-		"flight": "BA106",
-		"tours": [
-			"Galería de Arte Moderno",
-			"Catedral de Glasgow",
-			"Kelvingrove Park"
-		],
-		"hoteles": [
-			"Hotel Glasgow Central",
-			"Boutique Hotel Kelvingrove",
-			"Resort Catedral"
-		],
-		"actividades": [
-			"Tour por la galería de arte",
-			"Visita a la catedral",
-			"Paseo en bicicleta por el parque"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno escocés"]
+		"costMXN": "$28,800",
+		"costUSD": "$1,440",
+		"airline": "Virgin Atlantic",
+		"flightNumber": "VS567",
+		"departureTime": "17:30",
+		"arrivalTime": "10:45+1",
+		"duration": "10h 15m",
+		"stops": 0,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
+	},
+	{
+		"destination": "Liverpool",
+		"country": "Reino Unido",
+		"costMXN": "$27,500",
+		"costUSD": "$1,375",
+		"airline": "British Airways",
+		"flightNumber": "BA345",
+		"departureTime": "19:45",
+		"arrivalTime": "13:00+1",
+		"duration": "10h 15m",
+		"stops": 0,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Premium"
 	},
 	{
 		"destination": "Sídney",
 		"country": "Australia",
-		"costMXN": "$36,000",
-		"costUSD": "$1,800",
-		"flight": "QF201",
-		"tours": ["Ópera de Sídney", "Puente de la Bahía de Sídney", "Bondi Beach"],
-		"hoteles": [
-			"Hotel Sídney Central",
-			"Boutique Hotel Ópera",
-			"Resort Bondi Beach"
-		],
-		"actividades": [
-			"Tour por la Ópera de Sídney",
-			"Visita al puente",
-			"Paseo en bicicleta por Bondi Beach"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno australiano"
-		]
+		"costMXN": "$45,200",
+		"costUSD": "$2,260",
+		"airline": "Qantas",
+		"flightNumber": "QF26",
+		"departureTime": "21:45",
+		"arrivalTime": "08:30+2",
+		"duration": "22h 45m",
+		"stops": 1,
+		"baggage": "2 maletas de 23kg + equipaje de mano",
+		"travelClass": "Negocios"
 	},
 	{
 		"destination": "Melbourne",
 		"country": "Australia",
-		"costMXN": "$34,000",
-		"costUSD": "$1,700",
-		"flight": "QF202",
-		"tours": ["Federación Square", "Great Ocean Road", "Royal Botanic Gardens"],
-		"hoteles": [
-			"Hotel Melbourne Central",
-			"Boutique Hotel Federación",
-			"Resort Great Ocean Road"
-		],
-		"actividades": [
-			"Tour por la Great Ocean Road",
-			"Visita a los jardines botánicos",
-			"Paseo en bicicleta por la ciudad"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno australiano"
-		]
+		"costMXN": "$46,500",
+		"costUSD": "$2,325",
+		"airline": "Qantas",
+		"flightNumber": "QF789",
+		"departureTime": "20:30",
+		"arrivalTime": "07:15+2",
+		"duration": "22h 45m",
+		"stops": 1,
+		"baggage": "2 maletas de 23kg + equipaje de mano",
+		"travelClass": "Negocios"
 	},
 	{
 		"destination": "Brisbane",
 		"country": "Australia",
-		"costMXN": "$32,000",
-		"costUSD": "$1,600",
-		"flight": "QF203",
-		"tours": [
-			"South Bank Parklands",
-			"Lone Pine Koala Sanctuary",
-			"Story Bridge"
-		],
-		"hoteles": [
-			"Hotel Brisbane Central",
-			"Boutique Hotel South Bank",
-			"Resort Koala Sanctuary"
-		],
-		"actividades": [
-			"Tour por el santuario de koalas",
-			"Visita al Story Bridge",
-			"Paseo en bicicleta por South Bank"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno australiano"
-		]
+		"costMXN": "$44,800",
+		"costUSD": "$2,240",
+		"airline": "Virgin Australia",
+		"flightNumber": "VA456",
+		"departureTime": "22:15",
+		"arrivalTime": "08:00+2",
+		"duration": "22h 45m",
+		"stops": 1,
+		"baggage": "2 maletas de 23kg + equipaje de mano",
+		"travelClass": "Negocios"
 	},
 	{
 		"destination": "Perth",
 		"country": "Australia",
-		"costMXN": "$33,000",
-		"costUSD": "$1,650",
-		"flight": "QF204",
-		"tours": ["Kings Park", "Swan River", "Cottesloe Beach"],
-		"hoteles": [
-			"Hotel Perth Central",
-			"Boutique Hotel Kings Park",
-			"Resort Swan River"
-		],
-		"actividades": [
-			"Tour por Kings Park",
-			"Visita al río Swan",
-			"Paseo en bicicleta por la playa"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno australiano"
-		]
+		"costMXN": "$47,100",
+		"costUSD": "$2,355",
+		"airline": "Qantas",
+		"flightNumber": "QF234",
+		"departureTime": "19:45",
+		"arrivalTime": "06:30+2",
+		"duration": "22h 45m",
+		"stops": 1,
+		"baggage": "2 maletas de 23kg + equipaje de mano",
+		"travelClass": "Negocios"
 	},
 	{
 		"destination": "Adelaida",
 		"country": "Australia",
-		"costMXN": "$31,000",
-		"costUSD": "$1,550",
-		"flight": "QF205",
-		"tours": ["Adelaide Central Market", "Barossa Valley", "Glenelg Beach"],
-		"hoteles": [
-			"Hotel Adelaida Central",
-			"Boutique Hotel Barossa",
-			"Resort Glenelg Beach"
-		],
-		"actividades": [
-			"Tour por el mercado central",
-			"Visita a Barossa Valley",
-			"Paseo en bicicleta por la playa"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno australiano"
-		]
+		"costMXN": "$45,900",
+		"costUSD": "$2,295",
+		"airline": "Virgin Australia",
+		"flightNumber": "VA567",
+		"departureTime": "18:30",
+		"arrivalTime": "05:15+2",
+		"duration": "22h 45m",
+		"stops": 1,
+		"baggage": "2 maletas de 23kg + equipaje de mano",
+		"travelClass": "Negocios"
 	},
 	{
 		"destination": "Canberra",
 		"country": "Australia",
-		"costMXN": "$30,000",
-		"costUSD": "$1,500",
-		"flight": "QF206",
-		"tours": [
-			"Parlamento de Australia",
-			"Lago Burley Griffin",
-			"Australian War Memorial"
-		],
-		"hoteles": [
-			"Hotel Canberra Central",
-			"Boutique Hotel Parlamento",
-			"Resort Lago Burley"
-		],
-		"actividades": [
-			"Tour por el parlamento",
-			"Visita al lago",
-			"Paseo en bicicleta por el memorial"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno australiano"
-		]
+		"costMXN": "$44,200",
+		"costUSD": "$2,210",
+		"airline": "Qantas",
+		"flightNumber": "QF345",
+		"departureTime": "17:15",
+		"arrivalTime": "04:00+2",
+		"duration": "22h 45m",
+		"stops": 1,
+		"baggage": "2 maletas de 23kg + equipaje de mano",
+		"travelClass": "Negocios"
 	},
 	{
 		"destination": "Buenos Aires",
 		"country": "Argentina",
-		"costMXN": "$18,000",
-		"costUSD": "$900",
-		"flight": "AR101",
-		"tours": ["Casa Rosada", "La Boca", "Recoleta"],
-		"hoteles": [
-			"Hotel Buenos Aires Central",
-			"Boutique Hotel La Boca",
-			"Resort Recoleta"
-		],
-		"actividades": [
-			"Tour por La Boca",
-			"Visita a la Casa Rosada",
-			"Paseo en bicicleta por Recoleta"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno argentino"]
-	},
-	{
-		"destination": "Mendoza",
-		"country": "Argentina",
-		"costMXN": "$17,000",
-		"costUSD": "$850",
-		"flight": "AR102",
-		"tours": ["Bodegas de Vino", "Aconcagua", "Parque General San Martín"],
-		"hoteles": [
-			"Hotel Mendoza Central",
-			"Boutique Hotel Bodegas",
-			"Resort Aconcagua"
-		],
-		"actividades": [
-			"Tour por las bodegas",
-			"Visita al Aconcagua",
-			"Paseo en bicicleta por el parque"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno argentino"]
-	},
-	{
-		"destination": "Bariloche",
-		"country": "Argentina",
-		"costMXN": "$19,000",
-		"costUSD": "$950",
-		"flight": "AR103",
-		"tours": ["Cerro Catedral", "Lago Nahuel Huapi", "Circuito Chico"],
-		"hoteles": [
-			"Hotel Bariloche Central",
-			"Boutique Hotel Cerro Catedral",
-			"Resort Nahuel Huapi"
-		],
-		"actividades": [
-			"Tour por el Cerro Catedral",
-			"Visita al lago",
-			"Paseo en bicicleta por el circuito"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno patagónico"
-		]
+		"costMXN": "$22,400",
+		"costUSD": "$1,120",
+		"airline": "Aerolíneas Argentinas",
+		"flightNumber": "AR1302",
+		"departureTime": "23:55",
+		"arrivalTime": "09:30+1",
+		"duration": "9h 35m",
+		"stops": 0,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "Córdoba",
 		"country": "Argentina",
-		"costMXN": "$16,000",
-		"costUSD": "$800",
-		"flight": "AR104",
-		"tours": [
-			"Manzana Jesuítica",
-			"Cerro de las Rosas",
-			"Paseo del Buen Pastor"
-		],
-		"hoteles": [
-			"Hotel Córdoba Central",
-			"Boutique Hotel Manzana",
-			"Resort Cerro de las Rosas"
-		],
-		"actividades": [
-			"Tour por la Manzana Jesuítica",
-			"Visita al Cerro de las Rosas",
-			"Paseo en bicicleta por el Paseo del Buen Pastor"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno argentino"]
+		"costMXN": "$21,800",
+		"costUSD": "$1,090",
+		"airline": "LATAM",
+		"flightNumber": "LA456",
+		"departureTime": "22:30",
+		"arrivalTime": "08:15+1",
+		"duration": "9h 45m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
+	},
+	{
+		"destination": "Mendoza",
+		"country": "Argentina",
+		"costMXN": "$23,100",
+		"costUSD": "$1,155",
+		"airline": "Aerolíneas Argentinas",
+		"flightNumber": "AR789",
+		"departureTime": "21:45",
+		"arrivalTime": "07:30+1",
+		"duration": "9h 45m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
+	},
+	{
+		"destination": "Bariloche",
+		"country": "Argentina",
+		"costMXN": "$24,500",
+		"costUSD": "$1,225",
+		"airline": "LATAM",
+		"flightNumber": "LA234",
+		"departureTime": "20:15",
+		"arrivalTime": "06:00+1",
+		"duration": "9h 45m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "Salta",
 		"country": "Argentina",
-		"costMXN": "$17,500",
-		"costUSD": "$875",
-		"flight": "AR105",
-		"tours": ["Cerro San Bernardo", "Cafayate", "Tren a las Nubes"],
-		"hoteles": [
-			"Hotel Salta Central",
-			"Boutique Hotel Cafayate",
-			"Resort Tren a las Nubes"
-		],
-		"actividades": [
-			"Tour por el Cerro San Bernardo",
-			"Visita a Cafayate",
-			"Paseo en el Tren a las Nubes"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno argentino"]
+		"costMXN": "$22,900",
+		"costUSD": "$1,145",
+		"airline": "Aerolíneas Argentinas",
+		"flightNumber": "AR567",
+		"departureTime": "19:30",
+		"arrivalTime": "05:15+1",
+		"duration": "9h 45m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "Ushuaia",
 		"country": "Argentina",
-		"costMXN": "$20,000",
-		"costUSD": "$1,000",
-		"flight": "AR106",
-		"tours": [
-			"Parque Nacional Tierra del Fuego",
-			"Canal Beagle",
-			"Glaciar Martial"
-		],
-		"hoteles": [
-			"Hotel Ushuaia Central",
-			"Boutique Hotel Tierra del Fuego",
-			"Resort Canal Beagle"
-		],
-		"actividades": [
-			"Tour por el Parque Nacional",
-			"Visita al Canal Beagle",
-			"Paseo en bicicleta por el glaciar"
-		],
-		"extras": [
-			"Traslado al aeropuerto",
-			"Guía turístico",
-			"Desayuno patagónico"
-		]
+		"costMXN": "$25,200",
+		"costUSD": "$1,260",
+		"airline": "LATAM",
+		"flightNumber": "LA345",
+		"departureTime": "18:45",
+		"arrivalTime": "04:30+1",
+		"duration": "9h 45m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "Río de Janeiro",
 		"country": "Brasil",
-		"costMXN": "$20,000",
-		"costUSD": "$1,000",
-		"flight": "BR101",
-		"tours": ["Cristo Redentor", "Pan de Azúcar", "Copacabana"],
-		"hoteles": [
-			"Hotel Río Central",
-			"Boutique Hotel Copacabana",
-			"Resort Pan de Azúcar"
-		],
-		"actividades": [
-			"Tour por el Cristo Redentor",
-			"Visita al Pan de Azúcar",
-			"Paseo en bicicleta por Copacabana"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno brasileño"]
+		"costMXN": "$19,800",
+		"costUSD": "$990",
+		"airline": "LATAM",
+		"flightNumber": "LA8045",
+		"departureTime": "14:20",
+		"arrivalTime": "22:10",
+		"duration": "7h 50m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "São Paulo",
 		"country": "Brasil",
-		"costMXN": "$19,000",
-		"costUSD": "$950",
-		"flight": "BR102",
-		"tours": [
-			"Avenida Paulista",
-			"Parque Ibirapuera",
-			"Museo de Arte de São Paulo"
-		],
-		"hoteles": [
-			"Hotel São Paulo Central",
-			"Boutique Hotel Paulista",
-			"Resort Ibirapuera"
-		],
-		"actividades": [
-			"Tour por la Avenida Paulista",
-			"Visita al parque",
-			"Paseo en bicicleta por el museo"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno brasileño"]
-	},
-	{
-		"destination": "Foz do Iguaçu",
-		"country": "Brasil",
-		"costMXN": "$18,000",
-		"costUSD": "$900",
-		"flight": "BR103",
-		"tours": ["Cataratas del Iguazú", "Itaipú Binacional", "Parque das Aves"],
-		"hoteles": [
-			"Hotel Foz Central",
-			"Boutique Hotel Cataratas",
-			"Resort Itaipú"
-		],
-		"actividades": [
-			"Tour por las cataratas",
-			"Visita a Itaipú",
-			"Paseo en bicicleta por el parque"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno brasileño"]
-	},
-	{
-		"destination": "Salvador",
-		"country": "Brasil",
-		"costMXN": "$17,000",
-		"costUSD": "$850",
-		"flight": "BR104",
-		"tours": [
-			"Pelourinho",
-			"Farol da Barra",
-			"Iglesia de Nosso Senhor do Bonfim"
-		],
-		"hoteles": [
-			"Hotel Salvador Central",
-			"Boutique Hotel Pelourinho",
-			"Resort Farol da Barra"
-		],
-		"actividades": [
-			"Tour por Pelourinho",
-			"Visita al faro",
-			"Paseo en bicicleta por la iglesia"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno brasileño"]
+		"costMXN": "$18,500",
+		"costUSD": "$925",
+		"airline": "GOL",
+		"flightNumber": "G3456",
+		"departureTime": "15:30",
+		"arrivalTime": "23:20",
+		"duration": "7h 50m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "Brasilia",
 		"country": "Brasil",
-		"costMXN": "$16,500",
-		"costUSD": "$825",
-		"flight": "BR105",
-		"tours": [
-			"Plaza de los Tres Poderes",
-			"Catedral de Brasilia",
-			"Lago Paranoá"
-		],
-		"hoteles": [
-			"Hotel Brasilia Central",
-			"Boutique Hotel Tres Poderes",
-			"Resort Lago Paranoá"
-		],
-		"actividades": [
-			"Tour por la Plaza de los Tres Poderes",
-			"Visita a la catedral",
-			"Paseo en bicicleta por el lago"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno brasileño"]
+		"costMXN": "$20,100",
+		"costUSD": "$1,005",
+		"airline": "LATAM",
+		"flightNumber": "LA456",
+		"departureTime": "16:45",
+		"arrivalTime": "00:35+1",
+		"duration": "7h 50m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
+	},
+	{
+		"destination": "Salvador",
+		"country": "Brasil",
+		"costMXN": "$19,200",
+		"costUSD": "$960",
+		"airline": "GOL",
+		"flightNumber": "G5678",
+		"departureTime": "17:30",
+		"arrivalTime": "01:20+1",
+		"duration": "7h 50m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
+	},
+	{
+		"destination": "Fortaleza",
+		"country": "Brasil",
+		"costMXN": "$21,500",
+		"costUSD": "$1,075",
+		"airline": "LATAM",
+		"flightNumber": "LA789",
+		"departureTime": "18:15",
+		"arrivalTime": "02:05+1",
+		"duration": "7h 50m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
 	},
 	{
 		"destination": "Recife",
 		"country": "Brasil",
-		"costMXN": "$17,500",
-		"costUSD": "$875",
-		"flight": "BR106",
-		"tours": ["Playa Boa Viagem", "Centro Histórico", "Isla de Itamaracá"],
-		"hoteles": [
-			"Hotel Recife Central",
-			"Boutique Hotel Boa Viagem",
-			"Resort Itamaracá"
-		],
-		"actividades": [
-			"Tour por la playa",
-			"Visita al centro histórico",
-			"Paseo en bicicleta por la isla"
-		],
-		"extras": ["Traslado al aeropuerto", "Guía turístico", "Desayuno brasileño"]
+		"costMXN": "$20,800",
+		"costUSD": "$1,040",
+		"airline": "GOL",
+		"flightNumber": "G9012",
+		"departureTime": "19:00",
+		"arrivalTime": "02:50+1",
+		"duration": "7h 50m",
+		"stops": 1,
+		"baggage": "1 maleta de 23kg + equipaje de mano",
+		"travelClass": "Económica"
 	}
 ]
