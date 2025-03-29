@@ -139,7 +139,7 @@ const ReservationForm = () => {
 					className="w-full md:w-auto bg-sky-800 text-white p-2 rounded-md hover:bg-sky-950 duration-200"
 					onClick={handleSearch}
 				>
-					Buscar vuelos
+					Buscar
 				</button>
 			</div>
 
@@ -154,7 +154,7 @@ const ReservationForm = () => {
 			{showModal && (
 				<div className="fixed inset-0 bg-black/85 flex items-center justify-center p-4">
 					<div className="bg-stone-200 rounded-md shadow-lg w-full max-w-4xl max-h-[80vh] overflow-y-auto opacity-animated-1">
-						<h2 className="text-xl text-white font-bold p-4 bg-sky-950 sticky top-0">
+						<h2 className="text-xl text-white font-bold p-5 bg-sky-950 sticky top-0">
 							VUELOS DISPONIBLES
 						</h2>
 						<div className="p-4 space-y-4">
