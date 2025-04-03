@@ -1,6 +1,8 @@
 import NavbarMain from "./components/NavbarMain";
 import ReservationForm from "./components/ReservationForm";
 import HotelCard from "./components/HotelCard";
+import DiscountedFlights from "./components/DiscountedFlights";
+import Footer from "./components/Footer";
 
 const HomePage = () => {
 	return (
@@ -10,6 +12,8 @@ const HomePage = () => {
 				<ReservationForm />
 			</section>
 			<HotelCard />
+			<DiscountedFlights />
+			<Footer />
 		</main>
 	);
 };

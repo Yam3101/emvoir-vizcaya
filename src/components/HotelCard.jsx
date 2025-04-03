@@ -25,7 +25,7 @@ const HotelCard = () => {
 							<h3 className="text-xl font-semibold">{hotel.name}</h3>
 							<p className="text-slate-900">{hotel.location}</p>
 							<p className="text-slate-800">{hotel.description}</p>
-							<div className="flex flex-wrap items-center justify-end space-x-2">
+							<div className="flex flex-wrap items-center justify-end space-x-2.5">
 								<p className="font-bold flex flex-col space-y-[-7px] text-right">
 									<h4 className="text-sm text-slate-800">
 										{hotel.priceUSD}USD
