@@ -1,0 +1,102 @@
+[
+    {
+      "country": "México",
+      "airports": [
+        {"code": "MEX", "name": "Aeropuerto Internacional de la Ciudad de México"},
+        {"code": "CUN", "name": "Aeropuerto Internacional de Cancún"},
+        {"code": "GDL", "name": "Aeropuerto Internacional de Guadalajara"},
+        {"code": "MTY", "name": "Aeropuerto Internacional de Monterrey"},
+        {"code": "TIJ", "name": "Aeropuerto Internacional de Tijuana"}
+      ]
+    },
+    {
+      "country": "Estados Unidos",
+      "airports": [
+        {"code": "JFK", "name": "Aeropuerto Internacional John F. Kennedy"},
+        {"code": "LAX", "name": "Aeropuerto Internacional de Los Ángeles"},
+        {"code": "ORD", "name": "Aeropuerto Internacional O'Hare"},
+        {"code": "MIA", "name": "Aeropuerto Internacional de Miami"},
+        {"code": "DFW", "name": "Aeropuerto Internacional de Dallas-Fort Worth"}
+      ]
+    },
+    {
+      "country": "Canadá",
+      "airports": [
+        {"code": "YYZ", "name": "Aeropuerto Internacional Toronto Pearson"},
+        {"code": "YVR", "name": "Aeropuerto Internacional de Vancouver"},
+        {"code": "YUL", "name": "Aeropuerto Internacional Pierre Elliott Trudeau"},
+        {"code": "YYC", "name": "Aeropuerto Internacional de Calgary"},
+        {"code": "YOW", "name": "Aeropuerto Internacional de Ottawa"}
+      ]
+    },
+    {
+      "country": "Francia",
+      "airports": [
+        {"code": "CDG", "name": "Aeropuerto de París-Charles de Gaulle"},
+        {"code": "ORY", "name": "Aeropuerto de París-Orly"},
+        {"code": "NCE", "name": "Aeropuerto de Niza Costa Azul"},
+        {"code": "LYS", "name": "Aeropuerto de Lyon-Saint-Exupéry"},
+        {"code": "MRS", "name": "Aeropuerto de Marsella Provenza"}
+      ]
+    },
+    {
+      "country": "Italia",
+      "airports": [
+        {"code": "FCO", "name": "Aeropuerto de Roma-Fiumicino"},
+        {"code": "LIN", "name": "Aeropuerto de Milán-Linate"},
+        {"code": "MXP", "name": "Aeropuerto de Milán-Malpensa"},
+        {"code": "NAP", "name": "Aeropuerto de Nápoles"},
+        {"code": "VCE", "name": "Aeropuerto de Venecia Marco Polo"}
+      ]
+    },
+    {
+      "country": "Japón",
+      "airports": [
+        {"code": "HND", "name": "Aeropuerto Internacional de Tokio-Haneda"},
+        {"code": "NRT", "name": "Aeropuerto Internacional de Narita"},
+        {"code": "KIX", "name": "Aeropuerto Internacional de Kansai"},
+        {"code": "FUK", "name": "Aeropuerto de Fukuoka"},
+        {"code": "CTS", "name": "Aeropuerto New Chitose"}
+      ]
+    },
+    {
+      "country": "Reino Unido",
+      "airports": [
+        {"code": "LHR", "name": "Aeropuerto de Londres-Heathrow"},
+        {"code": "LGW", "name": "Aeropuerto de Londres-Gatwick"},
+        {"code": "MAN", "name": "Aeropuerto de Mánchester"},
+        {"code": "EDI", "name": "Aeropuerto de Edimburgo"},
+        {"code": "BHX", "name": "Aeropuerto de Birmingham"}
+      ]
+    },
+    {
+      "country": "Australia",
+      "airports": [
+        {"code": "SYD", "name": "Aeropuerto de Sídney"},
+        {"code": "MEL", "name": "Aeropuerto de Melbourne"},
+        {"code": "BNE", "name": "Aeropuerto de Brisbane"},
+        {"code": "PER", "name": "Aeropuerto de Perth"},
+        {"code": "ADL", "name": "Aeropuerto de Adelaida"}
+      ]
+    },
+    {
+      "country": "Argentina",
+      "airports": [
+        {"code": "EZE", "name": "Aeropuerto Internacional Ministro Pistarini"},
+        {"code": "AEP", "name": "Aeroparque Jorge Newbery"},
+        {"code": "COR", "name": "Aeropuerto Internacional Ingeniero Ambrosio Taravella"},
+        {"code": "MDZ", "name": "Aeropuerto Internacional de Mendoza"},
+        {"code": "BRC", "name": "Aeropuerto Internacional de San Carlos de Bariloche"}
+      ]
+    },
+    {
+      "country": "Brasil",
+      "airports": [
+        {"code": "GRU", "name": "Aeropuerto Internacional de São Paulo-Guarulhos"},
+        {"code": "GIG", "name": "Aeropuerto Internacional de Galeão"},
+        {"code": "BSB", "name": "Aeropuerto Internacional de Brasília"},
+        {"code": "CNF", "name": "Aeropuerto Internacional Tancredo Neves"},
+        {"code": "POA", "name": "Aeropuerto Internacional Salgado Filho"}
+      ]
+    }
+  ]

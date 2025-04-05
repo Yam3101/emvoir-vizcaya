@@ -20,17 +20,13 @@ const DiscountedFlights = () => {
 				{discountedFlights.map((flight) => (
 					<div
 						key={flight.id}
-						className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300"
+						className="bg-white rounded-md overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300"
 					>
-						<div className="relative h-48">
-							<img
-								src={`/images/${flight.image}`}
-								alt={flight.destination}
-								className="w-full h-full object-cover"
-							/>
-							<div className="absolute top-3 right-3 bg-red-500 text-white px-3 py-1 rounded-full font-bold text-sm">
-								-{flight.discountPercentage}%
-							</div>
+						<div className="bg-red-500 text-white px-3 py-1 font-bold text-sm z-10">
+							-{flight.discountPercentage}% DE DESCUENTO
+						</div>
+						<div className="h-48">
+							<img src={`/images/${flight.image}`} alt={flight.destination} />
 						</div>
 
 						<div className="p-4">
@@ -38,22 +34,22 @@ const DiscountedFlights = () => {
 								{flight.destination}, {flight.country}
 							</h3>
 
-							<div className="space-y-2 mb-4">
+							<div className="space-y-1">
 								<div className="flex justify-between">
-									<span className="text-gray-600 font-medium">Aerolínea:</span>
-									<span className="text-gray-800">
+									<span className="text-gray-800 font-medium">Aerolínea:</span>
+									<span className="text-gray-500">
 										{flight.airline} ({flight.flightNumber})
 									</span>
 								</div>
 								<div className="flex justify-between">
-									<span className="text-gray-600 font-medium">Horario:</span>
-									<span className="text-gray-800">
+									<span className="text-gray-800 font-medium">Horario:</span>
+									<span className="text-gray-500">
 										{flight.departureTime} - {flight.arrivalTime}
 									</span>
 								</div>
 								<div className="flex justify-between">
-									<span className="text-gray-600 font-medium">Duración:</span>
-									<span className="text-gray-800">{flight.duration}</span>
+									<span className="text-gray-800 font-medium">Duración:</span>
+									<span className="text-gray-500">{flight.duration}</span>
 								</div>
 							</div>
 
