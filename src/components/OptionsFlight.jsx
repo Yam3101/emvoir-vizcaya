@@ -128,15 +128,15 @@ const OptionsFlight = ({
 	}, []);
 
 	return (
-		<div className="fixed inset-0 bg-slate-900 bg-opacity-75 flex items-center justify-center p-2 sm:p-4 z-50">
+		<div className="fixed inset-0 bg-black/90 flex items-center justify-center p-2 sm:p-4 z-50">
 			<div className="bg-white rounded-lg shadow-xl w-full max-w-3xl max-h-[90vh] overflow-y-auto">
 				{!isConfirmed ? (
 					<>
 						<div className="p-4 sm:p-6">
 							<div className="flex justify-between items-center mb-4 sm:mb-6">
-								<h3 className="text-lg sm:text-xl font-bold text-slate-800">
-									Opciones de vuelo: {originAirport.city} ({origin}) →{" "}
-									{destinationAirport.city} ({destination})
+								<h3 className="text-lg sm:text-xl font-bold text-slate-900 uppercase">
+									{originAirport.city} ({origin}) → {destinationAirport.city} (
+									{destination})
 								</h3>
 								<div className="flex items-center space-x-2 sm:space-x-4">
 									<div className="flex items-center space-x-1 sm:space-x-2">
@@ -146,7 +146,7 @@ const OptionsFlight = ({
 										<select
 											value={showCurrency}
 											onChange={(e) => setShowCurrency(e.target.value)}
-											className="bg-white border border-slate-300 rounded-md py-1 px-1 sm:px-2 text-slate-800 text-xs sm:text-sm focus:outline-none focus:ring-1 focus:ring-slate-500"
+											className="bg-white border border-slate-300 rounded-md py-1 px-1 sm:px-2 text-slate-950 text-xs sm:text-sm focus:outline-none focus:ring-1 focus:ring-slate-900"
 										>
 											<option value="USD">USD</option>
 											<option value="MXN">MXN</option>
@@ -155,7 +155,7 @@ const OptionsFlight = ({
 									{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 									<button
 										onClick={onClose}
-										className="text-slate-500 hover:text-slate-700"
+										className="text-slate-900 hover:text-rose-700 duration-200"
 									>
 										{/* biome-ignore lint/a11y/noSvgWithoutTitle: <explanation> */}
 										<svg
@@ -183,15 +183,15 @@ const OptionsFlight = ({
 										<div
 											key={flight.id}
 											onClick={() => setSelectedFlight(flight)}
-											className={`p-3 sm:p-4 border rounded-lg cursor-pointer transition-colors ${
+											className={`p-3 sm:p-4 border rounded-md cursor-pointer transition-colors duration-200 ${
 												selectedFlight?.id === flight.id
-													? "border-slate-500 bg-slate-100"
+													? "border-slate-800 bg-slate-200"
 													: "border-slate-300 hover:bg-slate-50"
 											}`}
 										>
 											<div className="flex justify-between items-center">
 												<div>
-													<h4 className="font-bold text-sm sm:text-base text-slate-800">
+													<h4 className="font-bold text-sm sm:text-base text-slate-950">
 														{flight.airline}
 													</h4>
 													<div className="flex items-center space-x-2 sm:space-x-4 mt-1 sm:mt-2">
@@ -218,19 +218,19 @@ const OptionsFlight = ({
 													</div>
 												</div>
 												<div className="text-right">
-													<span className="text-base sm:text-lg font-bold text-slate-800">
+													<span className="text-base sm:text-lg font-bold text-slate-950">
 														{formatPrice(flight.price)}
 													</span>
 													<span className="block text-xs text-slate-500">
 														por persona
 													</span>
 													{showCurrency === "USD" && (
-														<span className="block text-xs text-slate-400">
+														<span className="block text-xs text-slate-500">
 															≈ ${convertToMXN(flight.price)} MXN
 														</span>
 													)}
 													{showCurrency === "MXN" && (
-														<span className="block text-xs text-slate-400">
+														<span className="block text-xs text-slate-500">
 															≈ ${flight.price} USD
 														</span>
 													)}
@@ -240,18 +240,18 @@ const OptionsFlight = ({
 									))}
 								</div>
 
-								<div className="bg-slate-50 p-3 sm:p-4 rounded-lg border border-slate-200">
-									<h4 className="font-bold text-sm sm:text-base text-slate-800 mb-3 sm:mb-4">
+								<div className="bg-slate-700 p-3 sm:p-4 rounded-sm">
+									<h4 className="font-bold text-sm sm:text-base text-white mb-3 sm:mb-4">
 										Detalles de tu reserva
 									</h4>
 
 									{selectedFlight && (
 										<>
-											<div className="space-y-3 sm:space-y-4">
+											<div className="space-y-1">
 												<div>
 													<label
 														htmlFor="passengers"
-														className="block text-xs sm:text-sm font-medium text-slate-700 mb-1"
+														className="block text-xs sm:text-sm font-medium text-slate-50 mb-1"
 													>
 														Pasajeros
 													</label>
@@ -261,7 +261,7 @@ const OptionsFlight = ({
 														onChange={(e) =>
 															setPassengers(Number.parseInt(e.target.value))
 														}
-														className="w-full bg-white border border-slate-300 rounded-md py-2 px-3 text-slate-800 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-slate-500"
+														className="w-full bg-slate-800 border border-slate-800 rounded-sm py-2 px-3 text-slate-50 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-slate-800 focus:border-slate-800"
 													>
 														{[1, 2, 3, 4, 5, 6].map((num) => (
 															<option key={`pass-${num}`} value={num}>
@@ -274,7 +274,7 @@ const OptionsFlight = ({
 												<div>
 													<label
 														htmlFor="luggage"
-														className="block text-xs sm:text-sm font-medium text-slate-700 mb-1"
+														className="block text-xs sm:text-sm font-medium text-slate-50 mb-1"
 													>
 														Equipaje (kg por persona)
 													</label>
@@ -284,7 +284,7 @@ const OptionsFlight = ({
 														onChange={(e) =>
 															setLuggage(Number.parseInt(e.target.value))
 														}
-														className="w-full bg-white border border-slate-300 rounded-md py-2 px-3 text-slate-800 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-slate-500"
+														className="w-full bg-slate-800 border border-slate-800 rounded-sm py-2 px-3 text-slate-50 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-slate-800 focus:border-slate-800"
 													>
 														<option value="0">Sin equipaje adicional</option>
 														<option value="1">
@@ -304,7 +304,7 @@ const OptionsFlight = ({
 												<div>
 													<label
 														htmlFor="flightClass"
-														className="block text-xs sm:text-sm font-medium text-slate-700 mb-1"
+														className="block text-xs sm:text-sm font-medium text-slate-50 mb-1"
 													>
 														Clase
 													</label>
@@ -312,7 +312,7 @@ const OptionsFlight = ({
 														id="flightClass"
 														value={flightClass}
 														onChange={(e) => setFlightClass(e.target.value)}
-														className="w-full bg-white border border-slate-300 rounded-md py-2 px-3 text-slate-800 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-slate-500"
+														className="w-full bg-slate-800 border border-slate-800 rounded-sm py-2 px-3 text-slate-50 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-slate-800 focus:border-slate-800"
 													>
 														<option value="economy">Económica</option>
 														<option value="business">Business (+150%)</option>
@@ -320,13 +320,13 @@ const OptionsFlight = ({
 													</select>
 												</div>
 
-												<div className="pt-3 sm:pt-4 border-t border-slate-300">
+												<div className="mt-3 pt-2 sm:pt-4 border-t border-slate-300">
 													<div className="flex justify-between mb-2">
-														<span className="text-xs sm:text-sm text-slate-700">
+														<span className="text-xs sm:text-sm text-white">
 															Vuelo {isRoundTrip ? "ida y vuelta" : "solo ida"}
 														</span>
 														<div className="text-right">
-															<span className="text-xs sm:text-sm text-slate-800">
+															<span className="text-xs sm:text-sm text-white">
 																{formatPrice(
 																	selectedFlight.price *
 																		passengers *
@@ -334,7 +334,7 @@ const OptionsFlight = ({
 																)}
 															</span>
 															{showCurrency === "USD" && (
-																<span className="block text-xs text-slate-400">
+																<span className="block text-xs text-slate-300">
 																	≈ $
 																	{convertToMXN(
 																		selectedFlight.price *
@@ -358,11 +358,11 @@ const OptionsFlight = ({
 														</div>
 													</div>
 													<div className="flex justify-between mb-2">
-														<span className="text-xs sm:text-sm text-slate-700">
+														<span className="text-xs sm:text-sm text-white">
 															Equipaje adicional
 														</span>
 														<div className="text-right">
-															<span className="text-xs sm:text-sm text-slate-800">
+															<span className="text-xs sm:text-sm text-white">
 																{formatPrice(
 																	selectedFlight.luggagePrice *
 																		luggage *
@@ -371,7 +371,7 @@ const OptionsFlight = ({
 																)}
 															</span>
 															{showCurrency === "USD" && (
-																<span className="block text-xs text-slate-400">
+																<span className="block text-xs text-slate-300">
 																	≈ $
 																	{convertToMXN(
 																		selectedFlight.luggagePrice *
@@ -383,7 +383,7 @@ const OptionsFlight = ({
 																</span>
 															)}
 															{showCurrency === "MXN" && (
-																<span className="block text-xs text-slate-400">
+																<span className="block text-xs text-slate-300">
 																	≈ $
 																	{(
 																		selectedFlight.luggagePrice *
@@ -397,11 +397,11 @@ const OptionsFlight = ({
 														</div>
 													</div>
 													<div className="flex justify-between mb-2">
-														<span className="text-xs sm:text-sm text-slate-700">
+														<span className="text-xs sm:text-sm text-white">
 															Clase {flightClass}
 														</span>
 														<div className="text-right">
-															<span className="text-xs sm:text-sm text-slate-800">
+															<span className="text-xs sm:text-sm text-white">
 																+
 																{formatPrice(
 																	selectedFlight.price *
@@ -411,7 +411,7 @@ const OptionsFlight = ({
 																)}
 															</span>
 															{showCurrency === "USD" && (
-																<span className="block text-xs text-slate-400">
+																<span className="block text-xs text-slate-300">
 																	≈ +$
 																	{convertToMXN(
 																		selectedFlight.price *
@@ -423,7 +423,7 @@ const OptionsFlight = ({
 																</span>
 															)}
 															{showCurrency === "MXN" && (
-																<span className="block text-xs text-slate-400">
+																<span className="block text-xs text-slate-300">
 																	≈ +$
 																	{(
 																		selectedFlight.price *
@@ -436,16 +436,16 @@ const OptionsFlight = ({
 															)}
 														</div>
 													</div>
-													<div className="flex justify-between mt-3 sm:mt-4 pt-2 border-t border-slate-400">
-														<span className="font-bold text-sm sm:text-base text-slate-800">
+													<div className="flex justify-between mt-1 sm:mt-4 pt-2 border-t border-slate-100">
+														<span className="font-bold text-sm sm:text-base text-white">
 															Total
 														</span>
 														<div className="text-right">
-															<span className="font-bold text-base sm:text-lg text-slate-800">
+															<span className="font-bold text-base sm:text-lg text-white">
 																{formatPrice(calculateTotalPrice())}
 															</span>
 															{showCurrency === "USD" && (
-																<span className="block text-xs text-slate-400">
+																<span className="block text-xs text-slate-300">
 																	≈ ${convertToMXN(calculateTotalPrice())} MXN
 																</span>
 															)}
@@ -462,7 +462,7 @@ const OptionsFlight = ({
 											{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 											<button
 												onClick={handleConfirm}
-												className="w-full mt-4 sm:mt-6 bg-slate-600 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded-md transition duration-200 text-sm sm:text-base"
+												className="w-full mt-4 sm:mt-6 bg-slate-800 hover:bg-slate-900 text-white font-bold py-2 px-4 rounded-md transition duration-200 text-sm sm:text-base"
 											>
 												Confirmar reserva
 											</button>
