@@ -1,102 +1,196 @@
-[
-    {
-      "country": "México",
-      "airports": [
-        {"code": "MEX", "name": "Aeropuerto Internacional de la Ciudad de México"},
-        {"code": "CUN", "name": "Aeropuerto Internacional de Cancún"},
-        {"code": "GDL", "name": "Aeropuerto Internacional de Guadalajara"},
-        {"code": "MTY", "name": "Aeropuerto Internacional de Monterrey"},
-        {"code": "TIJ", "name": "Aeropuerto Internacional de Tijuana"}
-      ]
-    },
-    {
-      "country": "Estados Unidos",
-      "airports": [
-        {"code": "JFK", "name": "Aeropuerto Internacional John F. Kennedy"},
-        {"code": "LAX", "name": "Aeropuerto Internacional de Los Ángeles"},
-        {"code": "ORD", "name": "Aeropuerto Internacional O'Hare"},
-        {"code": "MIA", "name": "Aeropuerto Internacional de Miami"},
-        {"code": "DFW", "name": "Aeropuerto Internacional de Dallas-Fort Worth"}
-      ]
-    },
-    {
-      "country": "Canadá",
-      "airports": [
-        {"code": "YYZ", "name": "Aeropuerto Internacional Toronto Pearson"},
-        {"code": "YVR", "name": "Aeropuerto Internacional de Vancouver"},
-        {"code": "YUL", "name": "Aeropuerto Internacional Pierre Elliott Trudeau"},
-        {"code": "YYC", "name": "Aeropuerto Internacional de Calgary"},
-        {"code": "YOW", "name": "Aeropuerto Internacional de Ottawa"}
-      ]
-    },
-    {
-      "country": "Francia",
-      "airports": [
-        {"code": "CDG", "name": "Aeropuerto de París-Charles de Gaulle"},
-        {"code": "ORY", "name": "Aeropuerto de París-Orly"},
-        {"code": "NCE", "name": "Aeropuerto de Niza Costa Azul"},
-        {"code": "LYS", "name": "Aeropuerto de Lyon-Saint-Exupéry"},
-        {"code": "MRS", "name": "Aeropuerto de Marsella Provenza"}
-      ]
-    },
-    {
-      "country": "Italia",
-      "airports": [
-        {"code": "FCO", "name": "Aeropuerto de Roma-Fiumicino"},
-        {"code": "LIN", "name": "Aeropuerto de Milán-Linate"},
-        {"code": "MXP", "name": "Aeropuerto de Milán-Malpensa"},
-        {"code": "NAP", "name": "Aeropuerto de Nápoles"},
-        {"code": "VCE", "name": "Aeropuerto de Venecia Marco Polo"}
-      ]
-    },
-    {
-      "country": "Japón",
-      "airports": [
-        {"code": "HND", "name": "Aeropuerto Internacional de Tokio-Haneda"},
-        {"code": "NRT", "name": "Aeropuerto Internacional de Narita"},
-        {"code": "KIX", "name": "Aeropuerto Internacional de Kansai"},
-        {"code": "FUK", "name": "Aeropuerto de Fukuoka"},
-        {"code": "CTS", "name": "Aeropuerto New Chitose"}
-      ]
-    },
-    {
-      "country": "Reino Unido",
-      "airports": [
-        {"code": "LHR", "name": "Aeropuerto de Londres-Heathrow"},
-        {"code": "LGW", "name": "Aeropuerto de Londres-Gatwick"},
-        {"code": "MAN", "name": "Aeropuerto de Mánchester"},
-        {"code": "EDI", "name": "Aeropuerto de Edimburgo"},
-        {"code": "BHX", "name": "Aeropuerto de Birmingham"}
-      ]
-    },
-    {
-      "country": "Australia",
-      "airports": [
-        {"code": "SYD", "name": "Aeropuerto de Sídney"},
-        {"code": "MEL", "name": "Aeropuerto de Melbourne"},
-        {"code": "BNE", "name": "Aeropuerto de Brisbane"},
-        {"code": "PER", "name": "Aeropuerto de Perth"},
-        {"code": "ADL", "name": "Aeropuerto de Adelaida"}
-      ]
-    },
-    {
-      "country": "Argentina",
-      "airports": [
-        {"code": "EZE", "name": "Aeropuerto Internacional Ministro Pistarini"},
-        {"code": "AEP", "name": "Aeroparque Jorge Newbery"},
-        {"code": "COR", "name": "Aeropuerto Internacional Ingeniero Ambrosio Taravella"},
-        {"code": "MDZ", "name": "Aeropuerto Internacional de Mendoza"},
-        {"code": "BRC", "name": "Aeropuerto Internacional de San Carlos de Bariloche"}
-      ]
-    },
-    {
-      "country": "Brasil",
-      "airports": [
-        {"code": "GRU", "name": "Aeropuerto Internacional de São Paulo-Guarulhos"},
-        {"code": "GIG", "name": "Aeropuerto Internacional de Galeão"},
-        {"code": "BSB", "name": "Aeropuerto Internacional de Brasília"},
-        {"code": "CNF", "name": "Aeropuerto Internacional Tancredo Neves"},
-        {"code": "POA", "name": "Aeropuerto Internacional Salgado Filho"}
-      ]
-    }
-  ]
+{
+	"airports": [
+		{
+			"country": "México",
+			"city": "Ciudad de México",
+			"airport": "Aeropuerto Internacional de la Ciudad de México",
+			"yata": "MEX"
+		},
+		{
+			"country": "México",
+			"city": "Cancún",
+			"airport": "Aeropuerto Internacional de Cancún",
+			"yata": "CUN"
+		},
+		{
+			"country": "México",
+			"city": "Acapulco",
+			"airport": "Aeropuerto Internacional de Acapulco",
+			"yata": "ACA"
+		},
+		{
+			"country": "México",
+			"city": "Guadalajara",
+			"airport": "Aeropuerto Internacional de Guadalajara",
+			"yata": "GDL"
+		},
+		{
+			"country": "México",
+			"city": "Monterrey",
+			"airport": "Aeropuerto Internacional del Norte",
+			"yata": "NTR"
+		},
+		{
+			"country": "México",
+			"city": "Mérida",
+			"airport": "Aeropuerto Internacional de Mérida",
+			"yata": "MID"
+		},
+		{
+			"country": "México",
+			"city": "Toluca",
+			"airport": "Aeropuerto internacional de Toluca",
+			"yata": "TLC"
+		},
+		{
+			"country": "Estados Unidos",
+			"city": "Nueva York",
+			"airport": "Aeropuerto Internacional John F. Kennedy",
+			"yata": "JFK"
+		},
+		{
+			"country": "Estados Unidos",
+			"city": "Los Ángeles",
+			"airport": "Aeropuerto Internacional de Los Ángeles",
+			"yata": "LAX"
+		},
+		{
+			"country": "Estados Unidos",
+			"city": "Chicago",
+			"airport": "Aeropuerto Internacional O'Hare",
+			"yata": "ORD"
+		},
+		{
+			"country": "Estados Unidos",
+			"city": "Miami",
+			"airport": "Aeropuerto Internacional de Miami",
+			"yata": "MIA"
+		},
+		{
+			"country": "Estados Unidos",
+			"city": "Dallas",
+			"airport": "Aeropuerto Internacional Dallas-Fort Worth",
+			"yata": "DFW"
+		},
+		{
+			"country": "Canadá",
+			"city": "Toronto",
+			"airport": "Aeropuerto Internacional Toronto Pearson",
+			"yata": "YYZ"
+		},
+		{
+			"country": "Canadá",
+			"city": "Vancouver",
+			"airport": "Aeropuerto Internacional de Vancouver",
+			"yata": "YVR"
+		},
+		{
+			"country": "Canadá",
+			"city": "Montreal",
+			"airport": "Aeropuerto Internacional Pierre Elliott Trudeau",
+			"yata": "YUL"
+		},
+		{
+			"country": "Canadá",
+			"city": "Calgary",
+			"airport": "Aeropuerto Internacional de Calgary",
+			"yata": "YYC"
+		},
+		{
+			"country": "Alemania",
+			"city": "Berlín",
+			"airport": "Aeropuerto de Berlín Brandeburgo",
+			"yata": "BER"
+		},
+		{
+			"country": "Alemania",
+			"city": "Múnich",
+			"airport": "Aeropuerto de Múnich",
+			"yata": "MUC"
+		},
+		{
+			"country": "Alemania",
+			"city": "Frankfurt",
+			"airport": "Aeropuerto de Frankfurt",
+			"yata": "FRA"
+		},
+		{
+			"country": "Alemania",
+			"city": "Düsseldorf",
+			"airport": "Aeropuerto de Düsseldorf",
+			"yata": "DUS"
+		},
+		{
+			"country": "Japón",
+			"city": "Tokio",
+			"airport": "Aeropuerto Internacional de Narita",
+			"yata": "NRT"
+		},
+		{
+			"country": "Japón",
+			"city": "Osaka",
+			"airport": "Aeropuerto Internacional de Kansai",
+			"yata": "KIX"
+		},
+		{
+			"country": "Japón",
+			"city": "Tokio",
+			"airport": "Aeropuerto Internacional de Haneda",
+			"yata": "HND"
+		},
+		{
+			"country": "Japón",
+			"city": "Nagoya",
+			"airport": "Aeropuerto Internacional Chubu Centrair",
+			"yata": "NGO"
+		},
+		{
+			"country": "Francia",
+			"city": "París",
+			"airport": "Aeropuerto Charles de Gaulle",
+			"yata": "CDG"
+		},
+		{
+			"country": "Francia",
+			"city": "París",
+			"airport": "Aeropuerto de Orly",
+			"yata": "ORY"
+		},
+		{
+			"country": "Francia",
+			"city": "Niza",
+			"airport": "Aeropuerto de Niza Costa Azul",
+			"yata": "NCE"
+		},
+		{
+			"country": "Francia",
+			"city": "Lyon",
+			"airport": "Aeropuerto de Lyon-Saint Exupéry",
+			"yata": "LYS"
+		},
+		{
+			"country": "Reino Unido",
+			"city": "Londres",
+			"airport": "Aeropuerto de Londres Heathrow",
+			"yata": "LHR"
+		},
+		{
+			"country": "Reino Unido",
+			"city": "Londres",
+			"airport": "Aeropuerto de Londres Gatwick",
+			"yata": "LGW"
+		},
+		{
+			"country": "Reino Unido",
+			"city": "Manchester",
+			"airport": "Aeropuerto de Manchester",
+			"yata": "MAN"
+		},
+		{
+			"country": "Reino Unido",
+			"city": "Edimburgo",
+			"airport": "Aeropuerto de Edimburgo",
+			"yata": "EDI"
+		}
+	]
+}
