@@ -42,7 +42,7 @@ const ReservationForm = () => {
 		: Yatas.airports.filter((airport) => airport.yata !== origin);
 
 	return (
-		<div className="bg-white text-slate-800 p-6 rounded-lg shadow-lg max-w-4xl mx-auto border border-slate-200">
+		<div className="bg-white text-slate-800 p-6 rounded-lg max-w-4xl mx-6 my-3 md:mx-auto border border-slate-200">
 			<h2 className="text-2xl font-bold mb-6 text-slate-800">
 				Reserva tu vuelo
 			</h2>
