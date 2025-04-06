@@ -129,7 +129,7 @@ const OptionsFlight = ({
 
 	return (
 		<div className="fixed inset-0 bg-black/90 flex items-center justify-center p-2 sm:p-4 z-50">
-			<div className="bg-white rounded-lg shadow-xl w-full max-w-3xl max-h-[90vh] overflow-y-auto">
+			<div className="bg-white rounded-lg shadow-xl w-full max-w-3xl max-h-[90vh] overflow-y-auto opacity-animated-2">
 				{!isConfirmed ? (
 					<>
 						<div className="p-4 sm:p-6">

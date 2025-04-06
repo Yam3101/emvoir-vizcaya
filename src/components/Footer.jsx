@@ -1,19 +1,17 @@
-import React from "react";
-
 const Footer = () => {
 	return (
-		<footer className="bg-slate-800 text-slate-100 mt-12">
+		<footer className="bg-slate-900 text-slate-100 mt-12">
 			<div className="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
 				<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
 					{/* Columna 1 - Logo y redes */}
 					<div className="space-y-4">
 						<div className="flex items-center space-x-2">
 							<img
-								src="/images/logo.png"
+								src="./iconNoGroundW.svg"
 								alt="Logo de la empresa"
-								className="h-10 w-auto"
+								width={100}
 							/>
-							<span className="text-xl font-semibold">TravelPlus</span>
+							<span className="text-xl font-semibold">E&M Voir</span>
 						</div>
 						<p className="text-slate-300 text-sm">
 							Encuentra las mejores ofertas de vuelos y vive experiencias
@@ -93,7 +91,7 @@ const Footer = () => {
 						<address className="not-italic text-slate-300 space-y-2">
 							<p>Av. Viajes 123, CDMX</p>
 							<p>Tel: 55 1234 5678</p>
-							<p>Email: info@travelplus.com</p>
+							<p>Email: contact@EMVoir.com</p>
 						</address>
 					</div>
 
@@ -120,9 +118,9 @@ const Footer = () => {
 				</div>
 
 				{/* División */}
-				<div className="border-t border-slate-700 mt-8 pt-6">
-					<div className="flex flex-col md:flex-row justify-between items-center text-sm text-slate-400">
-						<p>© 2025 TravelPlus. Todos los derechos reservados.</p>
+				<div className="border-t border-slate-600 mt-8 pt-6">
+					<div className="flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
+						<p>© 2025 E&M Voir. Todos los derechos reservados.</p>
 						<div className="flex space-x-4 mt-4 md:mt-0">
 							{/* biome-ignore lint/a11y/useValidAnchor: <explanation> */}
 							<a className="hover:text-slate-300 transition-colors">Términos</a>
