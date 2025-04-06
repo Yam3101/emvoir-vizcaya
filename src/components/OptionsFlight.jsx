@@ -475,7 +475,7 @@ const OptionsFlight = ({
 				) : (
 					<div className="p-4 sm:p-6">
 						<div className="flex justify-between items-center mb-4 sm:mb-6">
-							<h3 className="text-lg sm:text-xl font-bold text-slate-800">
+							<h3 className="text-lg uppercase sm:text-xl font-bold text-slate-800">
 								¡Reserva confirmada!
 							</h3>
 							<div className="flex items-center space-x-2 sm:space-x-4">
@@ -516,12 +516,12 @@ const OptionsFlight = ({
 							</div>
 						</div>
 
-						<div className="bg-slate-50 p-4 sm:p-6 rounded-lg border border-slate-200">
+						<div className="bg-slate-100 p-4 sm:p-6 rounded-sm">
 							<div className="text-center mb-4 sm:mb-6">
 								{/* biome-ignore lint/a11y/noSvgWithoutTitle: <explanation> */}
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									className="h-12 sm:h-16 w-12 sm:w-16 mx-auto text-green-500"
+									className="h-12 sm:h-16 w-12 sm:w-16 mx-auto text-lime-500 opacity-animated"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke="currentColor"
@@ -533,11 +533,12 @@ const OptionsFlight = ({
 										d="M5 13l4 4L19 7"
 									/>
 								</svg>
-								<h4 className="text-lg sm:text-xl font-bold text-slate-800 mt-2">
+								<h4 className="text-lg sm:text-xl font-bold uppercase text-slate-800 mt-2 opacity-animated">
 									¡Tu vuelo ha sido reservado!
 								</h4>
 								<p className="text-xs sm:text-sm text-slate-600 mt-1 sm:mt-2">
-									Hemos enviado los detalles a tu correo electrónico.
+									Tu reserva ha sido confirmada con éxito. Aquí están los
+									detalles de tu vuelo:
 								</p>
 							</div>
 
@@ -546,7 +547,7 @@ const OptionsFlight = ({
 									<span className="text-xs sm:text-sm text-slate-700">
 										Número de confirmación:
 									</span>
-									<span className="font-bold text-sm sm:text-base text-slate-800">
+									<span className="font-bold text-sm sm:text-base text-slate-900">
 										{confirmationNumber}
 									</span>
 								</div>
@@ -619,12 +620,12 @@ const OptionsFlight = ({
 												{formatPrice(calculateTotalPrice())}
 											</span>
 											{showCurrency === "USD" && (
-												<span className="block text-xs text-slate-400">
+												<span className="block text-xs text-slate-600">
 													≈ ${convertToMXN(calculateTotalPrice())} MXN
 												</span>
 											)}
 											{showCurrency === "MXN" && (
-												<span className="block text-xs text-slate-400">
+												<span className="block text-xs text-slate-600">
 													≈ ${calculateTotalPrice().toFixed(2)} USD
 												</span>
 											)}
@@ -636,7 +637,7 @@ const OptionsFlight = ({
 							{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 							<button
 								onClick={onClose}
-								className="w-full mt-4 sm:mt-6 bg-slate-600 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded-md transition duration-200 text-sm sm:text-base"
+								className="w-full mt-4 sm:mt-6 bg-slate-700 hover:bg-slate-800 text-white font-bold py-2 px-4 rounded-md transition duration-200 text-sm sm:text-base"
 							>
 								Cerrar
 							</button>
