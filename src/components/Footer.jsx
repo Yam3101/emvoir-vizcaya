@@ -1,6 +1,7 @@
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaMailBulk } from "react-icons/fa";
 
 const Footer = () => {
 	return (
@@ -8,7 +9,7 @@ const Footer = () => {
 			<div className="max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
 				<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
 					{/* Columna 1 - Logo y redes */}
-					<div className="space-y-4">
+					<div className="sm:space-y-2 space-y-4">
 						<div className="flex items-center space-x-2">
 							<img
 								src="./iconNoGroundW.svg"
@@ -21,10 +22,10 @@ const Footer = () => {
 							Encuentra las mejores ofertas de vuelos y vive experiencias
 							inolvidables.
 						</p>
-						<div className="flex space-x-1">
+						<div className="flex space-x-2">
 							<FaFacebookSquare className="text-white" size={30} />
 							<FaInstagram className="text-white" size={30} />
-							<FaTwitter className="text-white" size={30} />
+							<FaXTwitter className="text-white" size={30} />
 						</div>
 					</div>
 
@@ -63,7 +64,7 @@ const Footer = () => {
 					<div>
 						<h3 className="text-lg font-semibold mb-4">Contacto</h3>
 						<address className="not-italic text-slate-300 space-y-2">
-							<p>Av. Viajes 123, CDMX</p>
+							<p>Av. Viajes 123, Riviera Maya</p>
 							<p>Tel: 55 1234 5678</p>
 							<p>Email: contact@EMVoir.com</p>
 						</address>
@@ -83,9 +84,9 @@ const Footer = () => {
 							/>
 							<button
 								type="submit"
-								className="bg-slate-600 hover:bg-slate-500 text-white px-4 py-2 rounded-r transition-colors"
+								className="bg-slate-800 hover:bg-slate-950 text-white px-4 py-2 rounded-r transition-colors"
 							>
-								OK
+								<FaMailBulk />
 							</button>
 						</form>
 					</div>

@@ -1,56 +1,56 @@
 [
 	{
 		"id": 1,
-		"name": "Hotel Paraíso Maya",
+		"name": "Hotel Riu Palace Costa Mujeres",
 		"location": "Cancún, México",
-		"priceMXN": 2500,
-		"priceUSD": 150,
-		"image": "https://via.placeholder.com/300",
-		"description": "Un hermoso hotel con vista al mar y servicio todo incluido."
+		"priceMXN": 6500,
+		"priceUSD": 385,
+		"image": "riu.png",
+		"description": "Resort todo incluido 5 estrellas con playa privada, 6 piscinas y 8 restaurantes gourmet."
 	},
 	{
 		"id": 2,
-		"name": "Resort Playa Sol",
+		"name": "Grand Velas Riviera Maya",
 		"location": "Playa del Carmen, México",
-		"priceMXN": 3200,
-		"priceUSD": 190,
-		"image": "https://via.placeholder.com/300",
-		"description": "Lujo y comodidad con acceso directo a la playa."
+		"priceMXN": 12500,
+		"priceUSD": 740,
+		"image": "velas.png",
+		"description": "Lujoso resort todo incluido con suites de más de 100m², spa de clase mundial y gastronomía premiada."
 	},
 	{
 		"id": 3,
-		"name": "Montaña Esmeralda Lodge",
+		"name": "Hotel Rodavento",
 		"location": "Valle de Bravo, México",
-		"priceMXN": 1800,
-		"priceUSD": 110,
-		"image": "https://via.placeholder.com/300",
-		"description": "Un retiro en las montañas con cabañas acogedoras y vistas impresionantes."
+		"priceMXN": 3200,
+		"priceUSD": 190,
+		"image": "rodavento.png",
+		"description": "Encantador hotel boutique con cabañas frente al lago, spa y actividades al aire libre en la naturaleza."
 	},
 	{
 		"id": 4,
-		"name": "Gran Hotel Metropolitano",
+		"name": "Four Seasons Hotel Mexico City",
 		"location": "Ciudad de México, México",
-		"priceMXN": 4200,
-		"priceUSD": 250,
-		"image": "https://via.placeholder.com/300",
-		"description": "Lujo y comodidad en el corazón de la ciudad con restaurantes gourmet."
+		"priceMXN": 8500,
+		"priceUSD": 500,
+		"image": "fourSeasons.png",
+		"description": "Hotel de lujo en Reforma con piscina en la azotea, spa de 1,500m² y restaurante ganador de premios."
 	},
 	{
 		"id": 5,
-		"name": "EcoResort Selva Viva",
+		"name": "Azulik Tulum",
 		"location": "Tulum, México",
-		"priceMXN": 2900,
-		"priceUSD": 170,
-		"image": "https://via.placeholder.com/300",
-		"description": "Un hotel ecológico rodeado de naturaleza y playas vírgenes."
+		"priceMXN": 9800,
+		"priceUSD": 580,
+		"image": "tulum.png",
+		"description": "Eco-resort boutique frente al mar con villas de lujo sin electricidad para una experiencia natural auténtica."
 	},
 	{
 		"id": 6,
-		"name": "Hacienda Colonial Real",
+		"name": "Rosas & Xocolate Boutique Hotel",
 		"location": "Mérida, México",
-		"priceMXN": 2300,
-		"priceUSD": 135,
-		"image": "https://via.placeholder.com/300",
-		"description": "Una hermosa hacienda con historia, arquitectura colonial y jardines."
+		"priceMXN": 4200,
+		"priceUSD": 250,
+		"image": "rosas.png",
+		"description": "Exclusivo hotel boutique en una mansión restaurada con spa innovador y cocina yucateca contemporánea."
 	}
 ]
