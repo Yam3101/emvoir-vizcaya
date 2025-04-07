@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Yatas from "../components/json/Yatas.json";
 import OptionsFlight from "../components/OptionsFlight";
+import { FaPlaneDeparture } from "react-icons/fa";
+import { FaPlaneArrival } from "react-icons/fa";
 
 const ReservationForm = () => {
 	const [originCountry, setOriginCountry] = useState("");
@@ -105,7 +107,7 @@ const ReservationForm = () => {
 							htmlFor="origin"
 							className="block text-sm font-medium text-slate-700 mb-1"
 						>
-							Origen
+							<FaPlaneDeparture className="inline-block ml-1" /> Origen
 						</label>
 						<select
 							id="origin"
@@ -128,7 +130,7 @@ const ReservationForm = () => {
 							htmlFor="destination"
 							className="block text-sm font-medium text-slate-700 mb-1"
 						>
-							Destino
+							<FaPlaneArrival className="inline-block ml-1" /> Destino
 						</label>
 						<select
 							id="destination"
@@ -205,7 +207,7 @@ const ReservationForm = () => {
 
 				<button
 					type="submit"
-					className="w-full bg-slate-600 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded-md transition duration-200"
+					className="w-full bg-slate-700 hover:bg-slate-800 text-white font-bold py-2 px-4 rounded-md transition duration-200"
 				>
 					Buscar vuelos
 				</button>

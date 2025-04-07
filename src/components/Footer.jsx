@@ -1,3 +1,7 @@
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+
 const Footer = () => {
 	return (
 		<footer className="bg-slate-900 text-slate-100 mt-12">
@@ -17,40 +21,10 @@ const Footer = () => {
 							Encuentra las mejores ofertas de vuelos y vive experiencias
 							inolvidables.
 						</p>
-						<div className="flex space-x-4">
-							<a
-								// biome-ignore lint/a11y/useValidAnchor: <explanation>
-								href="#"
-								className="text-slate-300 hover:text-white transition-colors"
-							>
-								<img
-									src="/icons/facebook.svg"
-									alt="Facebook"
-									className="h-6 w-6"
-								/>
-							</a>
-							<a
-								// biome-ignore lint/a11y/useValidAnchor: <explanation>
-								href="#"
-								className="text-slate-300 hover:text-white transition-colors"
-							>
-								<img
-									src="/icons/twitter.svg"
-									alt="Twitter"
-									className="h-6 w-6"
-								/>
-							</a>
-							<a
-								// biome-ignore lint/a11y/useValidAnchor: <explanation>
-								href="#"
-								className="text-slate-300 hover:text-white transition-colors"
-							>
-								<img
-									src="/icons/instagram.svg"
-									alt="Instagram"
-									className="h-6 w-6"
-								/>
-							</a>
+						<div className="flex space-x-1">
+							<FaFacebookSquare className="text-white" size={30} />
+							<FaInstagram className="text-white" size={30} />
+							<FaTwitter className="text-white" size={30} />
 						</div>
 					</div>
 
